@@ -1,0 +1,217 @@
+{
+    "metaLanguages": {
+        "ca": {
+            "hreflang": "ca",
+            "href": "http://localhost/ca/axiomes"
+        }
+    },
+    "currentLanguage": "es",
+    "language": "es",
+    "instance": {
+        "lang": "es",
+        "id": 579,
+        "inst_id": 579,
+        "link": "/es/axiomas",
+        "has_urlnice": true,
+        "metadata": {
+            "id": 579,
+            "nom_intern": "Axiomes",
+            "external_id": "",
+            "batch_id": null,
+            "publishing_begins": "2023-05-24 16:16:55",
+            "status": "O",
+            "class_id": 20,
+            "class_tag": "Page",
+            "class_name": "Page",
+            "update_timestamp": 1685725038,
+            "cache_timestamp": 1702466172,
+            "cache_status": "miss",
+            "cache_filter": "all",
+            "start": 1702466172.065063,
+            "end": 1702466172.069263,
+            "microseconds": 0.004199981689453125
+        },
+        "niceurl": null,
+        "title": "Axiomas",
+        "subtitle": null,
+        "pretitle": null,
+        "text": null,
+        "metaTitle": null,
+        "metaKeywords": null,
+        "metaDescription": null,
+        "altOgImage": null,
+        "nom_intern": "Axiomes",
+        "ogImage": null,
+        "ogImage_imgid": null,
+        "ogImage_imghash": "d41d8cd98f00b204e9800998ecf8427e_",
+        "ogImage_imgextension": "",
+        "relations": {
+            "section": {
+                "metadata": {
+                    "id": 21001,
+                    "tag": "submenu",
+                    "parent_class_id": 21,
+                    "child_class_id": 0,
+                    "multiple_child_class_id": "20,32",
+                    "direction": "parent",
+                    "start": 1702466172.066593,
+                    "end": 1702466172.066896,
+                    "seconds": 0.00030303001403808594
+                }
+            },
+            "banner": {
+                "metadata": {
+                    "id": 20002,
+                    "tag": "banner",
+                    "parent_class_id": 20,
+                    "child_class_id": 50,
+                    "multiple_child_class_id": "",
+                    "direction": "child",
+                    "start": 1702466172.066897,
+                    "end": 1702466172.067128,
+                    "seconds": 0.00023102760314941406
+                }
+            },
+            "blocks": {
+                "instances": [
+                    {
+                        "lang": "es",
+                        "id": 332,
+                        "inst_id": 332,
+                        "link": "/es/332",
+                        "has_urlnice": false,
+                        "metadata": {
+                            "id": 332,
+                            "nom_intern": "text - axiomes",
+                            "external_id": "",
+                            "batch_id": null,
+                            "publishing_begins": "2021-08-03 07:20:21",
+                            "status": "O",
+                            "class_id": 42,
+                            "class_tag": "ColumnsBlock",
+                            "class_name": "ColumnsBlock",
+                            "update_timestamp": 1685725250,
+                            "relation_instance_weight": 100000,
+                            "cache_timestamp": 1702466172,
+                            "cache_status": "miss",
+                            "cache_filter": "all",
+                            "start": 1702466172.067354,
+                            "end": 1702466172.06926,
+                            "microseconds": 0.0019059181213378906
+                        },
+                        "title": "Nuestros axiomas",
+                        "altImg": null,
+                        "calltoactionText": null,
+                        "pretitle": null,
+                        "description": "<ul>\r\n\t<li><strong>Del sector salud, para el sector salud: </strong>Experiencia salida y probada en el propio sistema sanitario</li>\r\n\t<li><strong>Las necesidades de los profesionales son nuestra razón de ser: </strong>Desarrollamos soluciones de valor añadido, útiles para los profesionales y para las organizaciones sanitarias</li>\r\n\t<li><strong>La innovación y el desarrollo constantes como reto: </strong>La innovación está presente en nuestro día a día</li>\r\n\t<li><strong>Nunca hay una única solución para una necesidad; buscamos constantemente la mejor: </strong>Nos adaptamos a los requerimientos del cliente</li>\r\n\t<li><strong>Los mejores resultados son producto de la simbiosis: </strong>Compartiendo la experiencia y trabajando conjuntamente con el cliente el resultado es más enriquecedor</li>\r\n\t<li><strong>Garantía, seguridad y compromiso: </strong>La solvencia está explícita en nuestros compromisos</li>\r\n\t<li><strong>Si no es sostenible, no nos interesa: </strong>Hacemos una apuesta por soluciones y productos sostenibles y respetuosos con el medio ambiente</li>\r\n</ul>",
+                        "nom_intern": "text - axiomes",
+                        "file": null,
+                        "imgColumn": "/uploads/20210916/steripak.0.png",
+                        "textPosition": "right",
+                        "imgColumn_imgid": 4192,
+                        "imgColumn_imghash": "ac5f913aa7911a4106a5b23fe791c024_4192",
+                        "imgColumn_imgextension": "png",
+                        "relations": {
+                            "calltoaction": {
+                                "instances": [
+                                    {
+                                        "lang": "es",
+                                        "id": 527,
+                                        "inst_id": 527,
+                                        "link": "/es/uniformidad-industria",
+                                        "has_urlnice": true,
+                                        "metadata": {
+                                            "id": 527,
+                                            "nom_intern": "Uniformitat -industria",
+                                            "external_id": "",
+                                            "batch_id": null,
+                                            "publishing_begins": "2021-10-26 00:00:00",
+                                            "status": "O",
+                                            "class_id": 31,
+                                            "class_tag": "Category",
+                                            "class_name": "Category",
+                                            "update_timestamp": 1635444512,
+                                            "relation_instance_weight": 99990,
+                                            "cache_timestamp": 1702466172,
+                                            "cache_status": "miss",
+                                            "cache_filter": "fields:title",
+                                            "start": 1702466172.068441,
+                                            "end": 1702466172.068919,
+                                            "microseconds": 0.0004780292510986328
+                                        },
+                                        "title": "Uniformidad para la industria"
+                                    }
+                                ],
+                                "metadata": {
+                                    "id": 42001,
+                                    "tag": "calltoaction",
+                                    "parent_class_id": 42,
+                                    "child_class_id": 0,
+                                    "multiple_child_class_id": "20,22,30,31",
+                                    "direction": "child",
+                                    "start": 1702466172.068184,
+                                    "end": 1702466172.06892,
+                                    "seconds": 0.0007359981536865234
+                                }
+                            }
+                        }
+                    }
+                ],
+                "metadata": {
+                    "id": 20001,
+                    "tag": "blocks",
+                    "parent_class_id": 20,
+                    "child_class_id": 0,
+                    "multiple_child_class_id": "40,43,41,42,46,48,51,53,54",
+                    "direction": "child",
+                    "start": 1702466172.067129,
+                    "end": 1702466172.069262,
+                    "seconds": 0.0021331310272216797
+                }
+            }
+        }
+    },
+    "breadcrumbs": [
+        {
+            "lang": "es",
+            "id": 579,
+            "inst_id": 579,
+            "link": "/es/axiomas",
+            "has_urlnice": true,
+            "metadata": {
+                "id": 579,
+                "nom_intern": "Axiomes",
+                "external_id": "",
+                "batch_id": null,
+                "publishing_begins": "2023-05-24 16:16:55",
+                "status": "O",
+                "class_id": 20,
+                "class_tag": "Page",
+                "class_name": "Page",
+                "update_timestamp": 1685725038,
+                "cache_timestamp": 1702466172,
+                "cache_status": "miss",
+                "cache_filter": "fields:title|titleMenu",
+                "start": 1702466172.069396,
+                "end": 1702466172.070071,
+                "microseconds": 0.0006749629974365234
+            },
+            "title": "Axiomas",
+            "relations": {
+                "parent": {
+                    "metadata": {
+                        "id": 21001,
+                        "tag": "submenu",
+                        "parent_class_id": 21,
+                        "child_class_id": 0,
+                        "multiple_child_class_id": "20,32",
+                        "direction": "parent",
+                        "start": 1702466172.069846,
+                        "end": 1702466172.070071,
+                        "seconds": 0.000225067138671875
+                    }
+                }
+            }
+        }
+    ]
+}

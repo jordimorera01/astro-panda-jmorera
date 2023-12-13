@@ -1,0 +1,22 @@
+---
+export function getStaticPaths () {
+ return [
+    {params: {locale: 'ca', slug: undefined}},
+    {params: {locale: 'ca', slug: 'axiomes'}},
+    {params: {locale: 'ca', slug: 'parc-logistic-salut'}},
+    {params: {locale: 'ca', slug: 'qui-som'}},
+    {params: {locale: 'ca', slug: 'textil-sanitari'}},
+  ];
+}
+const { locale, slug } = Astro.params;
+
+console.log(slug)
+
+const response = await fetch(`http://localhost:8080/api/${locale}/${slug ?? 'inici'}`, {
+	method: 'GET',
+	headers: {'Content-Type':'application/json'},
+});
+
+const json = await response.json();
+---
+<div>{ json.instance.title }</div>
