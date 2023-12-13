@@ -17,6 +17,13 @@ const response = await fetch(`http://localhost:8080/api/${locale}/${slug ?? 'ini
 	headers: {'Content-Type':'application/json'},
 });
 
+const response2 = await fetch(`http://localhost:8080/api/${locale}/global`, {
+	method: 'GET',
+	headers: {'Content-Type':'application/json'},
+});
+
 const json = await response.json();
+const global = await response2.json();
 ---
+<div>{ global.title }</div>
 <div>{ json.instance.title }</div>
