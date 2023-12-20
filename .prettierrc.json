@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json.schemastore.org/prettierrc",
+  "semi": false,  
+  "singleQuote": true,
+  "arrowParens": "avoid",
+  "trailingComma": "none",
+  "endOfLine": "auto",
+  "quoteProps": "consistent",
+  "printWidth": 80,
+  "plugins": ["@ianvs/prettier-plugin-sort-imports", "prettier-plugin-astro", "react"],
+  "importOrder": [
+      "",
+      "<BUILTIN_MODULES>",
+      "",
+      "<THIRD_PARTY_MODULES>",
+      "",
+      "^[./]",
+      "",
+      "^@/(.*)$"
+  ],
+  "importOrderTypeScriptVersion": "5.0.0",
+  "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy"],
+  "overrides": [
+    {
+      "files": "*.astro",
+      "options": {
+        "parser": "astro"
+      }
+    }
+  ]
+  
+  
+}

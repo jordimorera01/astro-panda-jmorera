@@ -1,217 +1,217 @@
 {
-    "metaLanguages": {
-        "es": {
-            "hreflang": "es",
-            "href": "http://localhost/es/axiomas"
-        }
+  "metaLanguages": {
+    "es": {
+      "hreflang": "es",
+      "href": "http://localhost/es/axiomas"
+    }
+  },
+  "currentLanguage": "ca",
+  "language": "ca",
+  "instance": {
+    "lang": "ca",
+    "id": 579,
+    "inst_id": 579,
+    "link": "/ca/axiomes",
+    "has_urlnice": true,
+    "metadata": {
+      "id": 579,
+      "nom_intern": "Axiomes",
+      "external_id": "",
+      "batch_id": null,
+      "publishing_begins": "2023-05-24 16:16:55",
+      "status": "O",
+      "class_id": 20,
+      "class_tag": "Page",
+      "class_name": "Page",
+      "update_timestamp": 1685725038,
+      "cache_timestamp": 1702466118,
+      "cache_status": "miss",
+      "cache_filter": "all",
+      "start": 1702466118.802326,
+      "end": 1702466118.806162,
+      "microseconds": 0.0038361549377441406
     },
-    "currentLanguage": "ca",
-    "language": "ca",
-    "instance": {
-        "lang": "ca",
-        "id": 579,
-        "inst_id": 579,
-        "link": "/ca/axiomes",
-        "has_urlnice": true,
+    "niceurl": null,
+    "title": "Axiomes",
+    "subtitle": null,
+    "pretitle": null,
+    "text": null,
+    "metaTitle": null,
+    "metaKeywords": null,
+    "metaDescription": null,
+    "altOgImage": null,
+    "nom_intern": "Axiomes",
+    "ogImage": null,
+    "ogImage_imgid": null,
+    "ogImage_imghash": "d41d8cd98f00b204e9800998ecf8427e_",
+    "ogImage_imgextension": "",
+    "relations": {
+      "section": {
         "metadata": {
-            "id": 579,
-            "nom_intern": "Axiomes",
-            "external_id": "",
-            "batch_id": null,
-            "publishing_begins": "2023-05-24 16:16:55",
-            "status": "O",
-            "class_id": 20,
-            "class_tag": "Page",
-            "class_name": "Page",
-            "update_timestamp": 1685725038,
-            "cache_timestamp": 1702466118,
-            "cache_status": "miss",
-            "cache_filter": "all",
-            "start": 1702466118.802326,
-            "end": 1702466118.806162,
-            "microseconds": 0.0038361549377441406
-        },
-        "niceurl": null,
-        "title": "Axiomes",
-        "subtitle": null,
-        "pretitle": null,
-        "text": null,
-        "metaTitle": null,
-        "metaKeywords": null,
-        "metaDescription": null,
-        "altOgImage": null,
-        "nom_intern": "Axiomes",
-        "ogImage": null,
-        "ogImage_imgid": null,
-        "ogImage_imghash": "d41d8cd98f00b204e9800998ecf8427e_",
-        "ogImage_imgextension": "",
-        "relations": {
-            "section": {
-                "metadata": {
-                    "id": 21001,
-                    "tag": "submenu",
-                    "parent_class_id": 21,
-                    "child_class_id": 0,
-                    "multiple_child_class_id": "20,32",
-                    "direction": "parent",
-                    "start": 1702466118.803734,
-                    "end": 1702466118.804034,
-                    "seconds": 0.0002999305725097656
-                }
+          "id": 21001,
+          "tag": "submenu",
+          "parent_class_id": 21,
+          "child_class_id": 0,
+          "multiple_child_class_id": "20,32",
+          "direction": "parent",
+          "start": 1702466118.803734,
+          "end": 1702466118.804034,
+          "seconds": 0.0002999305725097656
+        }
+      },
+      "banner": {
+        "metadata": {
+          "id": 20002,
+          "tag": "banner",
+          "parent_class_id": 20,
+          "child_class_id": 50,
+          "multiple_child_class_id": "",
+          "direction": "child",
+          "start": 1702466118.804035,
+          "end": 1702466118.804274,
+          "seconds": 0.0002391338348388672
+        }
+      },
+      "blocks": {
+        "instances": [
+          {
+            "lang": "ca",
+            "id": 332,
+            "inst_id": 332,
+            "link": "/ca/332",
+            "has_urlnice": false,
+            "metadata": {
+              "id": 332,
+              "nom_intern": "text - axiomes",
+              "external_id": "",
+              "batch_id": null,
+              "publishing_begins": "2021-08-03 07:20:21",
+              "status": "O",
+              "class_id": 42,
+              "class_tag": "ColumnsBlock",
+              "class_name": "ColumnsBlock",
+              "update_timestamp": 1685725250,
+              "relation_instance_weight": 100000,
+              "cache_timestamp": 1702466118,
+              "cache_status": "miss",
+              "cache_filter": "all",
+              "start": 1702466118.804532,
+              "end": 1702466118.806159,
+              "microseconds": 0.0016269683837890625
             },
-            "banner": {
-                "metadata": {
-                    "id": 20002,
-                    "tag": "banner",
-                    "parent_class_id": 20,
-                    "child_class_id": 50,
-                    "multiple_child_class_id": "",
-                    "direction": "child",
-                    "start": 1702466118.804035,
-                    "end": 1702466118.804274,
-                    "seconds": 0.0002391338348388672
-                }
-            },
-            "blocks": {
+            "title": "Els nostres axiomes",
+            "altImg": "Alt imatge",
+            "calltoactionText": null,
+            "pretitle": null,
+            "description": "<ul>\r\n\t<li><strong>Del sector salut per al sector salut.</strong> Experiència sorgida i provada en el propi sistema sanitari</li>\r\n\t<li><strong>Les necessitats dels professionals sanitaris són la nostra raó de ser. </strong>Desenvolupem solucions de valor afegit, útils per als professionals i per a les organitzacions sanitàries</li>\r\n\t<li><strong>La innovació i el desenvolupament constants com a repte. </strong>La innovació està present en el nostre dia a dia</li>\r\n\t<li><strong>No hi ha una única solució per a una necessitat, cerquem constantment la millor. </strong>Ens adaptem als requeriments del client</li>\r\n\t<li><strong>Els millors resultats són producte de la simbiosi. </strong>Compartint l’experiència i treballant conjuntament amb els clients el resultat és més profitós</li>\r\n\t<li><strong>Garantia, seguretat i compromís. </strong>La solvència està explícita en el nostres compromisos</li>\r\n\t<li><strong>Si no és sostenible, no ens interessa.</strong> Fem una aposta per solucions i productes sostenibles i respectuosos amb el medi ambient</li>\r\n</ul>",
+            "nom_intern": "text - axiomes",
+            "file": null,
+            "imgColumn": "/uploads/20210916/steripak.0.png",
+            "textPosition": "right",
+            "imgColumn_imgid": 4192,
+            "imgColumn_imghash": "ac5f913aa7911a4106a5b23fe791c024_4192",
+            "imgColumn_imgextension": "png",
+            "relations": {
+              "calltoaction": {
                 "instances": [
-                    {
-                        "lang": "ca",
-                        "id": 332,
-                        "inst_id": 332,
-                        "link": "/ca/332",
-                        "has_urlnice": false,
-                        "metadata": {
-                            "id": 332,
-                            "nom_intern": "text - axiomes",
-                            "external_id": "",
-                            "batch_id": null,
-                            "publishing_begins": "2021-08-03 07:20:21",
-                            "status": "O",
-                            "class_id": 42,
-                            "class_tag": "ColumnsBlock",
-                            "class_name": "ColumnsBlock",
-                            "update_timestamp": 1685725250,
-                            "relation_instance_weight": 100000,
-                            "cache_timestamp": 1702466118,
-                            "cache_status": "miss",
-                            "cache_filter": "all",
-                            "start": 1702466118.804532,
-                            "end": 1702466118.806159,
-                            "microseconds": 0.0016269683837890625
-                        },
-                        "title": "Els nostres axiomes",
-                        "altImg": "Alt imatge",
-                        "calltoactionText": null,
-                        "pretitle": null,
-                        "description": "<ul>\r\n\t<li><strong>Del sector salut per al sector salut.</strong> Experiència sorgida i provada en el propi sistema sanitari</li>\r\n\t<li><strong>Les necessitats dels professionals sanitaris són la nostra raó de ser. </strong>Desenvolupem solucions de valor afegit, útils per als professionals i per a les organitzacions sanitàries</li>\r\n\t<li><strong>La innovació i el desenvolupament constants com a repte. </strong>La innovació està present en el nostre dia a dia</li>\r\n\t<li><strong>No hi ha una única solució per a una necessitat, cerquem constantment la millor. </strong>Ens adaptem als requeriments del client</li>\r\n\t<li><strong>Els millors resultats són producte de la simbiosi. </strong>Compartint l’experiència i treballant conjuntament amb els clients el resultat és més profitós</li>\r\n\t<li><strong>Garantia, seguretat i compromís. </strong>La solvència està explícita en el nostres compromisos</li>\r\n\t<li><strong>Si no és sostenible, no ens interessa.</strong> Fem una aposta per solucions i productes sostenibles i respectuosos amb el medi ambient</li>\r\n</ul>",
-                        "nom_intern": "text - axiomes",
-                        "file": null,
-                        "imgColumn": "/uploads/20210916/steripak.0.png",
-                        "textPosition": "right",
-                        "imgColumn_imgid": 4192,
-                        "imgColumn_imghash": "ac5f913aa7911a4106a5b23fe791c024_4192",
-                        "imgColumn_imgextension": "png",
-                        "relations": {
-                            "calltoaction": {
-                                "instances": [
-                                    {
-                                        "lang": "ca",
-                                        "id": 527,
-                                        "inst_id": 527,
-                                        "link": "/ca/uniformitat-industria",
-                                        "has_urlnice": true,
-                                        "metadata": {
-                                            "id": 527,
-                                            "nom_intern": "Uniformitat -industria",
-                                            "external_id": "",
-                                            "batch_id": null,
-                                            "publishing_begins": "2021-10-26 00:00:00",
-                                            "status": "O",
-                                            "class_id": 31,
-                                            "class_tag": "Category",
-                                            "class_name": "Category",
-                                            "update_timestamp": 1635444512,
-                                            "relation_instance_weight": 99990,
-                                            "cache_timestamp": 1702466118,
-                                            "cache_status": "miss",
-                                            "cache_filter": "fields:title",
-                                            "start": 1702466118.805581,
-                                            "end": 1702466118.805875,
-                                            "microseconds": 0.00029397010803222656
-                                        },
-                                        "title": "Uniformitat per a la indústia"
-                                    }
-                                ],
-                                "metadata": {
-                                    "id": 42001,
-                                    "tag": "calltoaction",
-                                    "parent_class_id": 42,
-                                    "child_class_id": 0,
-                                    "multiple_child_class_id": "20,22,30,31",
-                                    "direction": "child",
-                                    "start": 1702466118.805319,
-                                    "end": 1702466118.805876,
-                                    "seconds": 0.00055694580078125
-                                }
-                            }
-                        }
-                    }
+                  {
+                    "lang": "ca",
+                    "id": 527,
+                    "inst_id": 527,
+                    "link": "/ca/uniformitat-industria",
+                    "has_urlnice": true,
+                    "metadata": {
+                      "id": 527,
+                      "nom_intern": "Uniformitat -industria",
+                      "external_id": "",
+                      "batch_id": null,
+                      "publishing_begins": "2021-10-26 00:00:00",
+                      "status": "O",
+                      "class_id": 31,
+                      "class_tag": "Category",
+                      "class_name": "Category",
+                      "update_timestamp": 1635444512,
+                      "relation_instance_weight": 99990,
+                      "cache_timestamp": 1702466118,
+                      "cache_status": "miss",
+                      "cache_filter": "fields:title",
+                      "start": 1702466118.805581,
+                      "end": 1702466118.805875,
+                      "microseconds": 0.00029397010803222656
+                    },
+                    "title": "Uniformitat per a la indústia"
+                  }
                 ],
                 "metadata": {
-                    "id": 20001,
-                    "tag": "blocks",
-                    "parent_class_id": 20,
-                    "child_class_id": 0,
-                    "multiple_child_class_id": "40,43,41,42,46,48,51,53,54",
-                    "direction": "child",
-                    "start": 1702466118.804275,
-                    "end": 1702466118.806161,
-                    "seconds": 0.0018858909606933594
+                  "id": 42001,
+                  "tag": "calltoaction",
+                  "parent_class_id": 42,
+                  "child_class_id": 0,
+                  "multiple_child_class_id": "20,22,30,31",
+                  "direction": "child",
+                  "start": 1702466118.805319,
+                  "end": 1702466118.805876,
+                  "seconds": 0.00055694580078125
                 }
+              }
             }
+          }
+        ],
+        "metadata": {
+          "id": 20001,
+          "tag": "blocks",
+          "parent_class_id": 20,
+          "child_class_id": 0,
+          "multiple_child_class_id": "40,43,41,42,46,48,51,53,54",
+          "direction": "child",
+          "start": 1702466118.804275,
+          "end": 1702466118.806161,
+          "seconds": 0.0018858909606933594
         }
-    },
-    "breadcrumbs": [
-        {
-            "lang": "ca",
-            "id": 579,
-            "inst_id": 579,
-            "link": "/ca/axiomes",
-            "has_urlnice": true,
-            "metadata": {
-                "id": 579,
-                "nom_intern": "Axiomes",
-                "external_id": "",
-                "batch_id": null,
-                "publishing_begins": "2023-05-24 16:16:55",
-                "status": "O",
-                "class_id": 20,
-                "class_tag": "Page",
-                "class_name": "Page",
-                "update_timestamp": 1685725038,
-                "cache_timestamp": 1702466118,
-                "cache_status": "miss",
-                "cache_filter": "fields:title|titleMenu",
-                "start": 1702466118.806265,
-                "end": 1702466118.806846,
-                "microseconds": 0.0005807876586914062
-            },
-            "title": "Axiomes",
-            "relations": {
-                "parent": {
-                    "metadata": {
-                        "id": 21001,
-                        "tag": "submenu",
-                        "parent_class_id": 21,
-                        "child_class_id": 0,
-                        "multiple_child_class_id": "20,32",
-                        "direction": "parent",
-                        "start": 1702466118.80667,
-                        "end": 1702466118.806846,
-                        "seconds": 0.00017595291137695312
-                    }
-                }
-            }
+      }
+    }
+  },
+  "breadcrumbs": [
+    {
+      "lang": "ca",
+      "id": 579,
+      "inst_id": 579,
+      "link": "/ca/axiomes",
+      "has_urlnice": true,
+      "metadata": {
+        "id": 579,
+        "nom_intern": "Axiomes",
+        "external_id": "",
+        "batch_id": null,
+        "publishing_begins": "2023-05-24 16:16:55",
+        "status": "O",
+        "class_id": 20,
+        "class_tag": "Page",
+        "class_name": "Page",
+        "update_timestamp": 1685725038,
+        "cache_timestamp": 1702466118,
+        "cache_status": "miss",
+        "cache_filter": "fields:title|titleMenu",
+        "start": 1702466118.806265,
+        "end": 1702466118.806846,
+        "microseconds": 0.0005807876586914062
+      },
+      "title": "Axiomes",
+      "relations": {
+        "parent": {
+          "metadata": {
+            "id": 21001,
+            "tag": "submenu",
+            "parent_class_id": 21,
+            "child_class_id": 0,
+            "multiple_child_class_id": "20,32",
+            "direction": "parent",
+            "start": 1702466118.80667,
+            "end": 1702466118.806846,
+            "seconds": 0.00017595291137695312
+          }
         }
-    ]
+      }
+    }
+  ]
 }

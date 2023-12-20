@@ -1,26 +1,33 @@
 ---
-import { ReactComponent } from "../components/ReactComponent";
-export function getStaticPaths () {
- return [
-    {params: {slug: undefined}},
-    {params: {slug: 'axiomas'}},
-    {params: {slug: 'parque-logistico-salud'}},
-    {params: {slug: 'quienes-somos'}},
-    {params: {slug: 'textil-sanitario'}},
-  ];
-}
-const { slug } = Astro.params;
+import { ReactComponent } from '../components/ReactComponent'
+import Products from './Products.astro'
+import About from './Products.astro'
 
-const response = await fetch(`http://localhost:8080/api/es/${slug ?? 'inicio'}`, {
-	method: 'GET',
-	headers: {'Content-Type':'application/json'},
-});
+export function getStaticPaths() {
+  return [
+    { params: { slug: undefined } },
+    { params: { slug: 'axiomas' } },
+    { params: { slug: 'parque-logistico-salud' } },
+    { params: { slug: 'quienes-somos' } },
+    { params: { slug: 'textil-sanitario' } }
+  ]
+}
+const { slug } = Astro.params
+
+const response = await fetch(
+  `http://localhost:8080/api/es/${slug ?? 'inicio'}`,
+  {
+    method: 'GET',
+    headers: { 'Content-Type': 'application/json' }
+  }
+)
 const response2 = await fetch(`http://localhost:8080/api/es/global`, {
-	method: 'GET',
-	headers: {'Content-Type':'application/json'},
-});
-const json = await response.json();
-const global = await response2.json();
+  method: 'GET',
+  headers: { 'Content-Type': 'application/json' }
+})
+const json = await response.json()
+const global = await response2.json()
 ---
-<div>{ global.title }</div>
-<ReactComponent title={ json.instance.title } />
+
+<h1>{global.title}</h1>{slug === 'textil-sanitario' && <Products data={json} />}
+<!-- <ReactComponent title={json.instance.title} /> -->

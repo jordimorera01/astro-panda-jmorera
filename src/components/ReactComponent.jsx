@@ -1,3 +1,3 @@
-export const ReactComponent = ({title}) => {
-	return <div>{ title }</div>
-}
+export const ReactComponent = ({ title }) => {
+	return <div>{title}</div>;
+};

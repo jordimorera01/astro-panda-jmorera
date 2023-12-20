@@ -1,0 +1,15 @@
+---
+import { Card } from '../components/Card/Card'
+import Layout from '../components/Layout/PageLayout.astro'
+
+const { data } = Astro.props
+---
+
+<Layout>
+  <h1>{data.instance.title}</h1>
+  {
+    data.instance.relations.blocks.instances.map(block => {
+      return <Card title={block.title} />
+    })
+  }
+</Layout>

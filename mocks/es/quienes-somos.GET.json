@@ -1,406 +1,461 @@
 {
-    "metaLanguages": {
-        "ca": {
-            "hreflang": "ca",
-            "href": "http://localhost/ca/qui-som"
-        }
+  "metaLanguages": {
+    "ca": {
+      "hreflang": "ca",
+      "href": "http://localhost/ca/qui-som"
+    }
+  },
+  "currentLanguage": "es",
+  "language": "es",
+  "instance": {
+    "lang": "es",
+    "id": 587,
+    "inst_id": 587,
+    "link": "/es/quienes-somos",
+    "has_urlnice": true,
+    "metadata": {
+      "id": 587,
+      "nom_intern": "Qui som?",
+      "external_id": "",
+      "batch_id": null,
+      "publishing_begins": "2023-05-24 16:56:57",
+      "status": "O",
+      "class_id": 20,
+      "class_tag": "Page",
+      "class_name": "Page",
+      "update_timestamp": 1685725444,
+      "cache_timestamp": 1702466191,
+      "cache_status": "miss",
+      "cache_filter": "all",
+      "start": 1702466191.378904,
+      "end": 1702466191.388986,
+      "microseconds": 0.010082006454467773
     },
-    "currentLanguage": "es",
-    "language": "es",
-    "instance": {
-        "lang": "es",
-        "id": 587,
-        "inst_id": 587,
-        "link": "/es/quienes-somos",
-        "has_urlnice": true,
-        "metadata": {
-            "id": 587,
-            "nom_intern": "Qui som?",
-            "external_id": "",
-            "batch_id": null,
-            "publishing_begins": "2023-05-24 16:56:57",
-            "status": "O",
-            "class_id": 20,
-            "class_tag": "Page",
-            "class_name": "Page",
-            "update_timestamp": 1685725444,
-            "cache_timestamp": 1702466191,
-            "cache_status": "miss",
-            "cache_filter": "all",
-            "start": 1702466191.378904,
-            "end": 1702466191.388986,
-            "microseconds": 0.010082006454467773
-        },
-        "niceurl": null,
-        "title": "¿Quiénes somos?",
-        "subtitle": null,
-        "pretitle": null,
-        "text": null,
-        "metaTitle": null,
-        "metaKeywords": null,
-        "metaDescription": null,
-        "altOgImage": null,
-        "nom_intern": "Qui som?",
-        "ogImage": null,
-        "ogImage_imgid": null,
-        "ogImage_imghash": "d41d8cd98f00b204e9800998ecf8427e_",
-        "ogImage_imgextension": "",
-        "relations": {
-            "section": {
-                "instances": [
-                    {
-                        "lang": "es",
-                        "id": 316,
-                        "inst_id": 316,
-                        "link": "/es/316",
-                        "has_urlnice": false,
-                        "metadata": {
-                            "id": 316,
-                            "nom_intern": "Empresa",
-                            "external_id": "",
-                            "batch_id": null,
-                            "publishing_begins": "2021-07-21 13:36:33",
-                            "status": "O",
-                            "class_id": 21,
-                            "class_tag": "Section",
-                            "class_name": "Section",
-                            "update_timestamp": 1631531326,
-                            "relation_instance_weight": 99990,
-                            "cache_timestamp": 1702466191,
-                            "cache_status": "miss",
-                            "cache_filter": "all",
-                            "start": 1702466191.380813,
-                            "end": 1702466191.381444,
-                            "microseconds": 0.0006310939788818359
-                        },
-                        "title": "Empresa",
-                        "metaTitle": null,
-                        "metaKeywords": null,
-                        "metaDescription": null,
-                        "altOgImage": null,
-                        "nom_intern": "Empresa",
-                        "ogImage": null,
-                        "ogImage_imgid": null,
-                        "ogImage_imghash": "d41d8cd98f00b204e9800998ecf8427e_",
-                        "ogImage_imgextension": ""
-                    }
-                ],
-                "metadata": {
-                    "id": 21001,
-                    "tag": "submenu",
-                    "parent_class_id": 21,
-                    "child_class_id": 0,
-                    "multiple_child_class_id": "20,32",
-                    "direction": "parent",
-                    "start": 1702466191.380407,
-                    "end": 1702466191.381449,
-                    "seconds": 0.0010418891906738281
-                }
-            },
-            "banner": {
-                "metadata": {
-                    "id": 20002,
-                    "tag": "banner",
-                    "parent_class_id": 20,
-                    "child_class_id": 50,
-                    "multiple_child_class_id": "",
-                    "direction": "child",
-                    "start": 1702466191.38145,
-                    "end": 1702466191.381741,
-                    "seconds": 0.0002911090850830078
-                }
-            },
-            "blocks": {
-                "instances": [
-                    {
-                        "lang": "es",
-                        "id": 592,
-                        "inst_id": 592,
-                        "link": "/es/592",
-                        "has_urlnice": false,
-                        "metadata": {
-                            "id": 592,
-                            "nom_intern": "empresa especialitzada en implantar solucions integrals",
-                            "external_id": "",
-                            "batch_id": null,
-                            "publishing_begins": "2023-05-24 17:09:45",
-                            "status": "O",
-                            "class_id": 40,
-                            "class_tag": "TextBlock",
-                            "class_name": "TextBlock",
-                            "update_timestamp": 1685726162,
-                            "relation_instance_weight": 99950,
-                            "cache_timestamp": 1702466191,
-                            "cache_status": "miss",
-                            "cache_filter": "all",
-                            "start": 1702466191.382014,
-                            "end": 1702466191.382806,
-                            "microseconds": 0.0007920265197753906
-                        },
-                        "title": "AXIOMA Soluciones",
-                        "subtitle": "Es una empresa especializada en implantar soluciones integrales y servicios de apoyo sanitario a las organizaciones del ámbito de la salud.",
-                        "description": "<strong>El cliente es el centro de nuestro desarrollo</strong> y establecemos con nuestros clientes compromisos de larga duración fundamentados en la cooperación y la corresponsabilidad.<br />\r\n<br />\r\n<strong>Nuestras soluciones y productos nacen en el sector salud y son para el sector salud</strong>, poniendo a disposición de los profesionales, productos y soluciones que están pensados para conseguir que se sientan apoyados en todo aquello que no es asistencial.<br />\r\n<br />\r\nNuestras soluciones se desarrollan y se actualizan con <strong>la colaboración de los profesionales y las organizaciones sanitarias</strong>, desde la configuración a la verificación de su idoneidad y la certificación de los requerimientos necesarios de seguridad.<br />\r\n<br />\r\nNuestras soluciones de gestión externa cubren un abanico de servicios y productos diseñados con la máxima fiabilidad,<br />\r\n<strong>garantizando nuestro compromiso social y el respeto por el medio ambiente.</strong><br />\r\n<br />\r\n<strong>Nuestras instalaciones</strong> están diseñadas en función de tres conceptos básicos: funcionalidad, seguridad y escalabilidad, para evitar cruces innecesarios de los productos, y trazabilidad.<br />\r\n<br />\r\nLos retos del entorno sanitario no se podrán lograr sin productos y servicios ágiles, fiables y sostenibles, que faciliten el desarrollo de conocimiento y la aplicación de las prácticas asistenciales innovadoras.<br />\r\n<br />\r\nLa integración de conocimiento experto del sector, de los espacios y tecnología apropiada y de un modelo organizativo competente y seguro hace de<strong> AXIOMA Soluciones una empresa experta y competitiva</strong> es los servicios de apoyo sanitario<br />",
-                        "nom_intern": "empresa especialitzada en implantar solucions integrals"
-                    },
-                    {
-                        "lang": "es",
-                        "id": 594,
-                        "inst_id": 594,
-                        "link": "/es/594",
-                        "has_urlnice": false,
-                        "metadata": {
-                            "id": 594,
-                            "nom_intern": "Orígens",
-                            "external_id": "",
-                            "batch_id": null,
-                            "publishing_begins": "2023-05-24 17:11:47",
-                            "status": "O",
-                            "class_id": 42,
-                            "class_tag": "ColumnsBlock",
-                            "class_name": "ColumnsBlock",
-                            "update_timestamp": 1685727013,
-                            "relation_instance_weight": 99960,
-                            "cache_timestamp": 1702466191,
-                            "cache_status": "miss",
-                            "cache_filter": "all",
-                            "start": 1702466191.382808,
-                            "end": 1702466191.383997,
-                            "microseconds": 0.0011889934539794922
-                        },
-                        "title": "Orígenes",
-                        "altImg": null,
-                        "calltoactionText": null,
-                        "pretitle": null,
-                        "description": "Un proyecto que tenía como necesidad prioritaria la liberación de espacios para las actividades asistenciales del <a href=\"http://www.mutuaterrassa.com/\" target=\"_blank\">Hospital<br />\r\nUniversitario Mútua Terrassa</a> se transformó, desde el primer día, en una empresa emprendedora que evoluciona adaptándose a los cambiantes retos del sector de los servicios de salud.<br />\r\n<br />\r\nCon la trayectoria de Elenpunt en la gestión externa de servicios de lavandería y de esterilización, el año 1997 Mútua Terrassa se planteó un modelo de gestión donde los servicios no asistenciales se ubicaran fuera de las instalaciones del hospital. Fruto de esta realidad, Mútua Terrassa emprendió la creación del Parque Logístico de Salud, entorno empresarial especializado para el desarrollo de las funciones de apoyo sanitario \"no nucleares\"<br />\r\n<br />\r\nAXIOMA Soluciones se ha desarrollado dentro del sector sanitario y es permeable a las nuevas necesidades que se consolidan in company en el Hospital Universitario Mútua Terrassa y se validan diariamente en múltiples puntos de servicio diario.<br />",
-                        "nom_intern": "Orígens",
-                        "file": null,
-                        "imgColumn": "/uploads/20230524/bugaderia-1-p.1.png",
-                        "textPosition": "right",
-                        "imgColumn_imgid": 4218,
-                        "imgColumn_imghash": "d929b1d7bc272980305eb570f7047cbf_4218",
-                        "imgColumn_imgextension": "png",
-                        "relations": {
-                            "calltoaction": {
-                                "metadata": {
-                                    "id": 42001,
-                                    "tag": "calltoaction",
-                                    "parent_class_id": 42,
-                                    "child_class_id": 0,
-                                    "multiple_child_class_id": "20,22,30,31",
-                                    "direction": "child",
-                                    "start": 1702466191.383537,
-                                    "end": 1702466191.383719,
-                                    "seconds": 0.0001819133758544922
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "lang": "es",
-                        "id": 593,
-                        "inst_id": 593,
-                        "link": "/es/593",
-                        "has_urlnice": false,
-                        "metadata": {
-                            "id": 593,
-                            "nom_intern": "Visió",
-                            "external_id": "",
-                            "batch_id": null,
-                            "publishing_begins": "2023-05-24 17:10:34",
-                            "status": "O",
-                            "class_id": 43,
-                            "class_tag": "HighlightedTextBlock",
-                            "class_name": "HighlightedTextBlock",
-                            "update_timestamp": 1685727412,
-                            "relation_instance_weight": 99970,
-                            "cache_timestamp": 1702466191,
-                            "cache_status": "miss",
-                            "cache_filter": "all",
-                            "start": 1702466191.383999,
-                            "end": 1702466191.385189,
-                            "microseconds": 0.0011899471282958984
-                        },
-                        "title": "Visión",
-                        "calltoactionText": null,
-                        "pretitle": null,
-                        "description": "AXIOMA Soluciones quiere ser un operador de soluciones integrales y de servicios de apoyo sanitario referente en el mercado español.<br />\r\n<br />\r\nSiempre orientando las soluciones en su punto de asistencia y adecuándolas a los procesos de cada organización, la exigencia del equipo de profesionales de AXIOMA Soluciones tiene como reto ser reconocido como el socio estratégico de sus clientes.<br />\r\n<br />\r\nPor esto, la innovación, la seguridad y la eficiencia son los valores que nos acompañan en nuestra tarea diaria, sin olvidar nuestro compromiso con la sostenibilidad del entono.",
-                        "nom_intern": "Visió",
-                        "file": null,
-                        "relations": {
-                            "calltoaction": {
-                                "metadata": {
-                                    "id": 43001,
-                                    "tag": "calltoaction",
-                                    "parent_class_id": 43,
-                                    "child_class_id": 0,
-                                    "multiple_child_class_id": "20,22,30,31",
-                                    "direction": "child",
-                                    "start": 1702466191.384597,
-                                    "end": 1702466191.384839,
-                                    "seconds": 0.00024199485778808594
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "lang": "es",
-                        "id": 595,
-                        "inst_id": 595,
-                        "link": "/es/595",
-                        "has_urlnice": false,
-                        "metadata": {
-                            "id": 595,
-                            "nom_intern": "Marc conceptual",
-                            "external_id": "",
-                            "batch_id": null,
-                            "publishing_begins": "2023-05-24 17:40:17",
-                            "status": "O",
-                            "class_id": 42,
-                            "class_tag": "ColumnsBlock",
-                            "class_name": "ColumnsBlock",
-                            "update_timestamp": 1685727551,
-                            "relation_instance_weight": 99980,
-                            "cache_timestamp": 1702466191,
-                            "cache_status": "miss",
-                            "cache_filter": "all",
-                            "start": 1702466191.385191,
-                            "end": 1702466191.386868,
-                            "microseconds": 0.0016770362854003906
-                        },
-                        "title": "Marco conceptual",
-                        "altImg": null,
-                        "calltoactionText": null,
-                        "pretitle": null,
-                        "description": "Nuestras soluciones están focalizadas en el cliente y tienen como objetivo la mejora de la calidad, la seguridad, la eficiencia, la<br />\r\neficacia, la especialización y la evolución tecnológica y organizativa, a la vez que la incorporación de las innovaciones que otros sectores ya han introducido en estas actividades.",
-                        "nom_intern": "Marc conceptual",
-                        "file": null,
-                        "imgColumn": "/uploads/20230525/00024.1.jpg",
-                        "textPosition": "left",
-                        "imgColumn_imgid": 4237,
-                        "imgColumn_imghash": "28472447f678b49d869da12f27d7c7c4_4237",
-                        "imgColumn_imgextension": "jpg",
-                        "relations": {
-                            "calltoaction": {
-                                "metadata": {
-                                    "id": 42001,
-                                    "tag": "calltoaction",
-                                    "parent_class_id": 42,
-                                    "child_class_id": 0,
-                                    "multiple_child_class_id": "20,22,30,31",
-                                    "direction": "child",
-                                    "start": 1702466191.386079,
-                                    "end": 1702466191.386301,
-                                    "seconds": 0.0002219676971435547
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "lang": "es",
-                        "id": 596,
-                        "inst_id": 596,
-                        "link": "/es/596",
-                        "has_urlnice": false,
-                        "metadata": {
-                            "id": 596,
-                            "nom_intern": "Marc relacional",
-                            "external_id": "",
-                            "batch_id": null,
-                            "publishing_begins": "2023-05-24 17:52:51",
-                            "status": "O",
-                            "class_id": 42,
-                            "class_tag": "ColumnsBlock",
-                            "class_name": "ColumnsBlock",
-                            "update_timestamp": 1686045092,
-                            "relation_instance_weight": 99990,
-                            "cache_timestamp": 1702466191,
-                            "cache_status": "miss",
-                            "cache_filter": "all",
-                            "start": 1702466191.386872,
-                            "end": 1702466191.388202,
-                            "microseconds": 0.0013298988342285156
-                        },
-                        "title": "Marco relacional",
-                        "altImg": null,
-                        "calltoactionText": null,
-                        "pretitle": null,
-                        "description": "Las soluciones que se ofrecen están íntimamente ligadas a la actividad sanitaria y la calidad de estas, que tienen el correspondiente impacto en el proceso asistencial, por esto el marco relacional entre socio y cliente se configura a partir de las siguientes premisas:\r\n<ul>\r\n\t<li>Somos un socio externo: compartimos visión, nivel de servicio, conocimiento y riesgo</li>\r\n\t<li>Establecemos relaciones estables con proyectos a 3-5 años</li>\r\n\t<li>Definimos de forma conjunta el proceso, eliminando todo aquello que no aporte valor real</li>\r\n\t<li>Compartimos el análisis, la planificación y el trabajo, como clave de éxito y para minimizar el riesgo</li>\r\n\t<li>Las responsabilidades no se traspasan: quedan identificadas y se comparten</li>\r\n\t<li>La calidad del servicio no es subjetiva: se definen indicadores y se certifican los resultados</li>\r\n\t<li>El objetivo final es el beneficio mutuo</li>\r\n</ul>",
-                        "nom_intern": "Marc relacional",
-                        "file": null,
-                        "imgColumn": "/uploads/20230525/00081.1.jpg",
-                        "textPosition": "right",
-                        "imgColumn_imgid": 4244,
-                        "imgColumn_imghash": "08b2d7e3bb8f5f23d08b626b7d7d60c7_4244",
-                        "imgColumn_imgextension": "jpg",
-                        "relations": {
-                            "calltoaction": {
-                                "metadata": {
-                                    "id": 42001,
-                                    "tag": "calltoaction",
-                                    "parent_class_id": 42,
-                                    "child_class_id": 0,
-                                    "multiple_child_class_id": "20,22,30,31",
-                                    "direction": "child",
-                                    "start": 1702466191.387717,
-                                    "end": 1702466191.387919,
-                                    "seconds": 0.00020194053649902344
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "lang": "es",
-                        "id": 597,
-                        "inst_id": 597,
-                        "link": "/es/597",
-                        "has_urlnice": false,
-                        "metadata": {
-                            "id": 597,
-                            "nom_intern": "La contribució",
-                            "external_id": "",
-                            "batch_id": null,
-                            "publishing_begins": "2023-05-24 17:55:15",
-                            "status": "O",
-                            "class_id": 40,
-                            "class_tag": "TextBlock",
-                            "class_name": "TextBlock",
-                            "update_timestamp": 1686045872,
-                            "relation_instance_weight": 100000,
-                            "cache_timestamp": 1702466191,
-                            "cache_status": "miss",
-                            "cache_filter": "all",
-                            "start": 1702466191.388203,
-                            "end": 1702466191.38898,
-                            "microseconds": 0.0007770061492919922
-                        },
-                        "title": null,
-                        "subtitle": "La contribución de una gestión adecuada de los servicios de apoyo sanitario a las organizaciones asistenciales:",
-                        "description": "<ul>\r\n\t<li>Garantizamos la gestión especializada de las funciones no nucleares y certificamos los niveles de servicio</li>\r\n\t<li>Disfrutamos de servicios de apoyo sanitario diferenciales y con valor añadido</li>\r\n\t<li>Reorientamos de costes fijos a variables: los optimizamos y aportamos un seguimiento y control de las desviaciones (diferenciamos el coste de la actividad asistencial y conocimiento de los costes de las funciones de apoyo sanitario)</li>\r\n\t<li>Ahorramos espacios y los reconvertimos para la actividad asistencial</li>\r\n\t<li>Innovación técnica y organizativa: automatizamos los procesos, incorporamos nuevas tecnologías, aportamos niveles de servicio especializados y seguros y la planificación y anticipación de las necesidades frente sistemas reactivos</li>\r\n\t<li>Implementamos sistemas de trazabilidad y aportamos el conocimiento de la trazabilidad de los productos sanitarios</li>\r\n\t<li>Modelo de recursos humanos específico: aportamos profesionalización, especialización y competitividad de los recursos</li>\r\n</ul>",
-                        "nom_intern": "La contribució"
-                    }
-                ],
-                "metadata": {
-                    "id": 20001,
-                    "tag": "blocks",
-                    "parent_class_id": 20,
-                    "child_class_id": 0,
-                    "multiple_child_class_id": "40,43,41,42,46,48,51,53,54",
-                    "direction": "child",
-                    "start": 1702466191.381742,
-                    "end": 1702466191.388984,
-                    "seconds": 0.007241964340209961
-                }
-            }
-        }
-    },
-    "breadcrumbs": [
-        {
+    "niceurl": null,
+    "title": "¿Quiénes somos?",
+    "subtitle": null,
+    "pretitle": null,
+    "text": null,
+    "metaTitle": null,
+    "metaKeywords": null,
+    "metaDescription": null,
+    "altOgImage": null,
+    "nom_intern": "Qui som?",
+    "ogImage": null,
+    "ogImage_imgid": null,
+    "ogImage_imghash": "d41d8cd98f00b204e9800998ecf8427e_",
+    "ogImage_imgextension": "",
+    "relations": {
+      "section": {
+        "instances": [
+          {
             "lang": "es",
             "id": 316,
             "inst_id": 316,
             "link": "/es/316",
             "has_urlnice": false,
             "metadata": {
+              "id": 316,
+              "nom_intern": "Empresa",
+              "external_id": "",
+              "batch_id": null,
+              "publishing_begins": "2021-07-21 13:36:33",
+              "status": "O",
+              "class_id": 21,
+              "class_tag": "Section",
+              "class_name": "Section",
+              "update_timestamp": 1631531326,
+              "relation_instance_weight": 99990,
+              "cache_timestamp": 1702466191,
+              "cache_status": "miss",
+              "cache_filter": "all",
+              "start": 1702466191.380813,
+              "end": 1702466191.381444,
+              "microseconds": 0.0006310939788818359
+            },
+            "title": "Empresa",
+            "metaTitle": null,
+            "metaKeywords": null,
+            "metaDescription": null,
+            "altOgImage": null,
+            "nom_intern": "Empresa",
+            "ogImage": null,
+            "ogImage_imgid": null,
+            "ogImage_imghash": "d41d8cd98f00b204e9800998ecf8427e_",
+            "ogImage_imgextension": ""
+          }
+        ],
+        "metadata": {
+          "id": 21001,
+          "tag": "submenu",
+          "parent_class_id": 21,
+          "child_class_id": 0,
+          "multiple_child_class_id": "20,32",
+          "direction": "parent",
+          "start": 1702466191.380407,
+          "end": 1702466191.381449,
+          "seconds": 0.0010418891906738281
+        }
+      },
+      "banner": {
+        "metadata": {
+          "id": 20002,
+          "tag": "banner",
+          "parent_class_id": 20,
+          "child_class_id": 50,
+          "multiple_child_class_id": "",
+          "direction": "child",
+          "start": 1702466191.38145,
+          "end": 1702466191.381741,
+          "seconds": 0.0002911090850830078
+        }
+      },
+      "blocks": {
+        "instances": [
+          {
+            "lang": "es",
+            "id": 592,
+            "inst_id": 592,
+            "link": "/es/592",
+            "has_urlnice": false,
+            "metadata": {
+              "id": 592,
+              "nom_intern": "empresa especialitzada en implantar solucions integrals",
+              "external_id": "",
+              "batch_id": null,
+              "publishing_begins": "2023-05-24 17:09:45",
+              "status": "O",
+              "class_id": 40,
+              "class_tag": "TextBlock",
+              "class_name": "TextBlock",
+              "update_timestamp": 1685726162,
+              "relation_instance_weight": 99950,
+              "cache_timestamp": 1702466191,
+              "cache_status": "miss",
+              "cache_filter": "all",
+              "start": 1702466191.382014,
+              "end": 1702466191.382806,
+              "microseconds": 0.0007920265197753906
+            },
+            "title": "AXIOMA Soluciones",
+            "subtitle": "Es una empresa especializada en implantar soluciones integrales y servicios de apoyo sanitario a las organizaciones del ámbito de la salud.",
+            "description": "<strong>El cliente es el centro de nuestro desarrollo</strong> y establecemos con nuestros clientes compromisos de larga duración fundamentados en la cooperación y la corresponsabilidad.<br />\r\n<br />\r\n<strong>Nuestras soluciones y productos nacen en el sector salud y son para el sector salud</strong>, poniendo a disposición de los profesionales, productos y soluciones que están pensados para conseguir que se sientan apoyados en todo aquello que no es asistencial.<br />\r\n<br />\r\nNuestras soluciones se desarrollan y se actualizan con <strong>la colaboración de los profesionales y las organizaciones sanitarias</strong>, desde la configuración a la verificación de su idoneidad y la certificación de los requerimientos necesarios de seguridad.<br />\r\n<br />\r\nNuestras soluciones de gestión externa cubren un abanico de servicios y productos diseñados con la máxima fiabilidad,<br />\r\n<strong>garantizando nuestro compromiso social y el respeto por el medio ambiente.</strong><br />\r\n<br />\r\n<strong>Nuestras instalaciones</strong> están diseñadas en función de tres conceptos básicos: funcionalidad, seguridad y escalabilidad, para evitar cruces innecesarios de los productos, y trazabilidad.<br />\r\n<br />\r\nLos retos del entorno sanitario no se podrán lograr sin productos y servicios ágiles, fiables y sostenibles, que faciliten el desarrollo de conocimiento y la aplicación de las prácticas asistenciales innovadoras.<br />\r\n<br />\r\nLa integración de conocimiento experto del sector, de los espacios y tecnología apropiada y de un modelo organizativo competente y seguro hace de<strong> AXIOMA Soluciones una empresa experta y competitiva</strong> es los servicios de apoyo sanitario<br />",
+            "nom_intern": "empresa especialitzada en implantar solucions integrals"
+          },
+          {
+            "lang": "es",
+            "id": 594,
+            "inst_id": 594,
+            "link": "/es/594",
+            "has_urlnice": false,
+            "metadata": {
+              "id": 594,
+              "nom_intern": "Orígens",
+              "external_id": "",
+              "batch_id": null,
+              "publishing_begins": "2023-05-24 17:11:47",
+              "status": "O",
+              "class_id": 42,
+              "class_tag": "ColumnsBlock",
+              "class_name": "ColumnsBlock",
+              "update_timestamp": 1685727013,
+              "relation_instance_weight": 99960,
+              "cache_timestamp": 1702466191,
+              "cache_status": "miss",
+              "cache_filter": "all",
+              "start": 1702466191.382808,
+              "end": 1702466191.383997,
+              "microseconds": 0.0011889934539794922
+            },
+            "title": "Orígenes",
+            "altImg": null,
+            "calltoactionText": null,
+            "pretitle": null,
+            "description": "Un proyecto que tenía como necesidad prioritaria la liberación de espacios para las actividades asistenciales del <a href=\"http://www.mutuaterrassa.com/\" target=\"_blank\">Hospital<br />\r\nUniversitario Mútua Terrassa</a> se transformó, desde el primer día, en una empresa emprendedora que evoluciona adaptándose a los cambiantes retos del sector de los servicios de salud.<br />\r\n<br />\r\nCon la trayectoria de Elenpunt en la gestión externa de servicios de lavandería y de esterilización, el año 1997 Mútua Terrassa se planteó un modelo de gestión donde los servicios no asistenciales se ubicaran fuera de las instalaciones del hospital. Fruto de esta realidad, Mútua Terrassa emprendió la creación del Parque Logístico de Salud, entorno empresarial especializado para el desarrollo de las funciones de apoyo sanitario \"no nucleares\"<br />\r\n<br />\r\nAXIOMA Soluciones se ha desarrollado dentro del sector sanitario y es permeable a las nuevas necesidades que se consolidan in company en el Hospital Universitario Mútua Terrassa y se validan diariamente en múltiples puntos de servicio diario.<br />",
+            "nom_intern": "Orígens",
+            "file": null,
+            "imgColumn": "/uploads/20230524/bugaderia-1-p.1.png",
+            "textPosition": "right",
+            "imgColumn_imgid": 4218,
+            "imgColumn_imghash": "d929b1d7bc272980305eb570f7047cbf_4218",
+            "imgColumn_imgextension": "png",
+            "relations": {
+              "calltoaction": {
+                "metadata": {
+                  "id": 42001,
+                  "tag": "calltoaction",
+                  "parent_class_id": 42,
+                  "child_class_id": 0,
+                  "multiple_child_class_id": "20,22,30,31",
+                  "direction": "child",
+                  "start": 1702466191.383537,
+                  "end": 1702466191.383719,
+                  "seconds": 0.0001819133758544922
+                }
+              }
+            }
+          },
+          {
+            "lang": "es",
+            "id": 593,
+            "inst_id": 593,
+            "link": "/es/593",
+            "has_urlnice": false,
+            "metadata": {
+              "id": 593,
+              "nom_intern": "Visió",
+              "external_id": "",
+              "batch_id": null,
+              "publishing_begins": "2023-05-24 17:10:34",
+              "status": "O",
+              "class_id": 43,
+              "class_tag": "HighlightedTextBlock",
+              "class_name": "HighlightedTextBlock",
+              "update_timestamp": 1685727412,
+              "relation_instance_weight": 99970,
+              "cache_timestamp": 1702466191,
+              "cache_status": "miss",
+              "cache_filter": "all",
+              "start": 1702466191.383999,
+              "end": 1702466191.385189,
+              "microseconds": 0.0011899471282958984
+            },
+            "title": "Visión",
+            "calltoactionText": null,
+            "pretitle": null,
+            "description": "AXIOMA Soluciones quiere ser un operador de soluciones integrales y de servicios de apoyo sanitario referente en el mercado español.<br />\r\n<br />\r\nSiempre orientando las soluciones en su punto de asistencia y adecuándolas a los procesos de cada organización, la exigencia del equipo de profesionales de AXIOMA Soluciones tiene como reto ser reconocido como el socio estratégico de sus clientes.<br />\r\n<br />\r\nPor esto, la innovación, la seguridad y la eficiencia son los valores que nos acompañan en nuestra tarea diaria, sin olvidar nuestro compromiso con la sostenibilidad del entono.",
+            "nom_intern": "Visió",
+            "file": null,
+            "relations": {
+              "calltoaction": {
+                "metadata": {
+                  "id": 43001,
+                  "tag": "calltoaction",
+                  "parent_class_id": 43,
+                  "child_class_id": 0,
+                  "multiple_child_class_id": "20,22,30,31",
+                  "direction": "child",
+                  "start": 1702466191.384597,
+                  "end": 1702466191.384839,
+                  "seconds": 0.00024199485778808594
+                }
+              }
+            }
+          },
+          {
+            "lang": "es",
+            "id": 595,
+            "inst_id": 595,
+            "link": "/es/595",
+            "has_urlnice": false,
+            "metadata": {
+              "id": 595,
+              "nom_intern": "Marc conceptual",
+              "external_id": "",
+              "batch_id": null,
+              "publishing_begins": "2023-05-24 17:40:17",
+              "status": "O",
+              "class_id": 42,
+              "class_tag": "ColumnsBlock",
+              "class_name": "ColumnsBlock",
+              "update_timestamp": 1685727551,
+              "relation_instance_weight": 99980,
+              "cache_timestamp": 1702466191,
+              "cache_status": "miss",
+              "cache_filter": "all",
+              "start": 1702466191.385191,
+              "end": 1702466191.386868,
+              "microseconds": 0.0016770362854003906
+            },
+            "title": "Marco conceptual",
+            "altImg": null,
+            "calltoactionText": null,
+            "pretitle": null,
+            "description": "Nuestras soluciones están focalizadas en el cliente y tienen como objetivo la mejora de la calidad, la seguridad, la eficiencia, la<br />\r\neficacia, la especialización y la evolución tecnológica y organizativa, a la vez que la incorporación de las innovaciones que otros sectores ya han introducido en estas actividades.",
+            "nom_intern": "Marc conceptual",
+            "file": null,
+            "imgColumn": "/uploads/20230525/00024.1.jpg",
+            "textPosition": "left",
+            "imgColumn_imgid": 4237,
+            "imgColumn_imghash": "28472447f678b49d869da12f27d7c7c4_4237",
+            "imgColumn_imgextension": "jpg",
+            "relations": {
+              "calltoaction": {
+                "metadata": {
+                  "id": 42001,
+                  "tag": "calltoaction",
+                  "parent_class_id": 42,
+                  "child_class_id": 0,
+                  "multiple_child_class_id": "20,22,30,31",
+                  "direction": "child",
+                  "start": 1702466191.386079,
+                  "end": 1702466191.386301,
+                  "seconds": 0.0002219676971435547
+                }
+              }
+            }
+          },
+          {
+            "lang": "es",
+            "id": 596,
+            "inst_id": 596,
+            "link": "/es/596",
+            "has_urlnice": false,
+            "metadata": {
+              "id": 596,
+              "nom_intern": "Marc relacional",
+              "external_id": "",
+              "batch_id": null,
+              "publishing_begins": "2023-05-24 17:52:51",
+              "status": "O",
+              "class_id": 42,
+              "class_tag": "ColumnsBlock",
+              "class_name": "ColumnsBlock",
+              "update_timestamp": 1686045092,
+              "relation_instance_weight": 99990,
+              "cache_timestamp": 1702466191,
+              "cache_status": "miss",
+              "cache_filter": "all",
+              "start": 1702466191.386872,
+              "end": 1702466191.388202,
+              "microseconds": 0.0013298988342285156
+            },
+            "title": "Marco relacional",
+            "altImg": null,
+            "calltoactionText": null,
+            "pretitle": null,
+            "description": "Las soluciones que se ofrecen están íntimamente ligadas a la actividad sanitaria y la calidad de estas, que tienen el correspondiente impacto en el proceso asistencial, por esto el marco relacional entre socio y cliente se configura a partir de las siguientes premisas:\r\n<ul>\r\n\t<li>Somos un socio externo: compartimos visión, nivel de servicio, conocimiento y riesgo</li>\r\n\t<li>Establecemos relaciones estables con proyectos a 3-5 años</li>\r\n\t<li>Definimos de forma conjunta el proceso, eliminando todo aquello que no aporte valor real</li>\r\n\t<li>Compartimos el análisis, la planificación y el trabajo, como clave de éxito y para minimizar el riesgo</li>\r\n\t<li>Las responsabilidades no se traspasan: quedan identificadas y se comparten</li>\r\n\t<li>La calidad del servicio no es subjetiva: se definen indicadores y se certifican los resultados</li>\r\n\t<li>El objetivo final es el beneficio mutuo</li>\r\n</ul>",
+            "nom_intern": "Marc relacional",
+            "file": null,
+            "imgColumn": "/uploads/20230525/00081.1.jpg",
+            "textPosition": "right",
+            "imgColumn_imgid": 4244,
+            "imgColumn_imghash": "08b2d7e3bb8f5f23d08b626b7d7d60c7_4244",
+            "imgColumn_imgextension": "jpg",
+            "relations": {
+              "calltoaction": {
+                "metadata": {
+                  "id": 42001,
+                  "tag": "calltoaction",
+                  "parent_class_id": 42,
+                  "child_class_id": 0,
+                  "multiple_child_class_id": "20,22,30,31",
+                  "direction": "child",
+                  "start": 1702466191.387717,
+                  "end": 1702466191.387919,
+                  "seconds": 0.00020194053649902344
+                }
+              }
+            }
+          },
+          {
+            "lang": "es",
+            "id": 597,
+            "inst_id": 597,
+            "link": "/es/597",
+            "has_urlnice": false,
+            "metadata": {
+              "id": 597,
+              "nom_intern": "La contribució",
+              "external_id": "",
+              "batch_id": null,
+              "publishing_begins": "2023-05-24 17:55:15",
+              "status": "O",
+              "class_id": 40,
+              "class_tag": "TextBlock",
+              "class_name": "TextBlock",
+              "update_timestamp": 1686045872,
+              "relation_instance_weight": 100000,
+              "cache_timestamp": 1702466191,
+              "cache_status": "miss",
+              "cache_filter": "all",
+              "start": 1702466191.388203,
+              "end": 1702466191.38898,
+              "microseconds": 0.0007770061492919922
+            },
+            "title": null,
+            "subtitle": "La contribución de una gestión adecuada de los servicios de apoyo sanitario a las organizaciones asistenciales:",
+            "description": "<ul>\r\n\t<li>Garantizamos la gestión especializada de las funciones no nucleares y certificamos los niveles de servicio</li>\r\n\t<li>Disfrutamos de servicios de apoyo sanitario diferenciales y con valor añadido</li>\r\n\t<li>Reorientamos de costes fijos a variables: los optimizamos y aportamos un seguimiento y control de las desviaciones (diferenciamos el coste de la actividad asistencial y conocimiento de los costes de las funciones de apoyo sanitario)</li>\r\n\t<li>Ahorramos espacios y los reconvertimos para la actividad asistencial</li>\r\n\t<li>Innovación técnica y organizativa: automatizamos los procesos, incorporamos nuevas tecnologías, aportamos niveles de servicio especializados y seguros y la planificación y anticipación de las necesidades frente sistemas reactivos</li>\r\n\t<li>Implementamos sistemas de trazabilidad y aportamos el conocimiento de la trazabilidad de los productos sanitarios</li>\r\n\t<li>Modelo de recursos humanos específico: aportamos profesionalización, especialización y competitividad de los recursos</li>\r\n</ul>",
+            "nom_intern": "La contribució"
+          }
+        ],
+        "metadata": {
+          "id": 20001,
+          "tag": "blocks",
+          "parent_class_id": 20,
+          "child_class_id": 0,
+          "multiple_child_class_id": "40,43,41,42,46,48,51,53,54",
+          "direction": "child",
+          "start": 1702466191.381742,
+          "end": 1702466191.388984,
+          "seconds": 0.007241964340209961
+        }
+      }
+    }
+  },
+  "breadcrumbs": [
+    {
+      "lang": "es",
+      "id": 316,
+      "inst_id": 316,
+      "link": "/es/316",
+      "has_urlnice": false,
+      "metadata": {
+        "id": 316,
+        "nom_intern": "Empresa",
+        "external_id": "",
+        "batch_id": null,
+        "publishing_begins": "2021-07-21 13:36:33",
+        "status": "O",
+        "class_id": 21,
+        "class_tag": "Section",
+        "class_name": "Section",
+        "update_timestamp": 1631531326,
+        "relation_instance_weight": 99990,
+        "cache_timestamp": 1702466191,
+        "cache_status": "miss",
+        "cache_filter": "fields:title|titleMenu",
+        "start": 1702466191.389773,
+        "end": 1702466191.390055,
+        "microseconds": 0.00028204917907714844
+      },
+      "title": "Empresa"
+    },
+    {
+      "lang": "es",
+      "id": 587,
+      "inst_id": 587,
+      "link": "/es/quienes-somos",
+      "has_urlnice": true,
+      "metadata": {
+        "id": 587,
+        "nom_intern": "Qui som?",
+        "external_id": "",
+        "batch_id": null,
+        "publishing_begins": "2023-05-24 16:56:57",
+        "status": "O",
+        "class_id": 20,
+        "class_tag": "Page",
+        "class_name": "Page",
+        "update_timestamp": 1685725444,
+        "cache_timestamp": 1702466191,
+        "cache_status": "miss",
+        "cache_filter": "fields:title|titleMenu",
+        "start": 1702466191.389118,
+        "end": 1702466191.390056,
+        "microseconds": 0.0009379386901855469
+      },
+      "title": "¿Quiénes somos?",
+      "relations": {
+        "parent": {
+          "instances": [
+            {
+              "lang": "es",
+              "id": 316,
+              "inst_id": 316,
+              "link": "/es/316",
+              "has_urlnice": false,
+              "metadata": {
                 "id": 316,
                 "nom_intern": "Empresa",
                 "external_id": "",
@@ -418,78 +473,23 @@
                 "start": 1702466191.389773,
                 "end": 1702466191.390055,
                 "microseconds": 0.00028204917907714844
-            },
-            "title": "Empresa"
-        },
-        {
-            "lang": "es",
-            "id": 587,
-            "inst_id": 587,
-            "link": "/es/quienes-somos",
-            "has_urlnice": true,
-            "metadata": {
-                "id": 587,
-                "nom_intern": "Qui som?",
-                "external_id": "",
-                "batch_id": null,
-                "publishing_begins": "2023-05-24 16:56:57",
-                "status": "O",
-                "class_id": 20,
-                "class_tag": "Page",
-                "class_name": "Page",
-                "update_timestamp": 1685725444,
-                "cache_timestamp": 1702466191,
-                "cache_status": "miss",
-                "cache_filter": "fields:title|titleMenu",
-                "start": 1702466191.389118,
-                "end": 1702466191.390056,
-                "microseconds": 0.0009379386901855469
-            },
-            "title": "¿Quiénes somos?",
-            "relations": {
-                "parent": {
-                    "instances": [
-                        {
-                            "lang": "es",
-                            "id": 316,
-                            "inst_id": 316,
-                            "link": "/es/316",
-                            "has_urlnice": false,
-                            "metadata": {
-                                "id": 316,
-                                "nom_intern": "Empresa",
-                                "external_id": "",
-                                "batch_id": null,
-                                "publishing_begins": "2021-07-21 13:36:33",
-                                "status": "O",
-                                "class_id": 21,
-                                "class_tag": "Section",
-                                "class_name": "Section",
-                                "update_timestamp": 1631531326,
-                                "relation_instance_weight": 99990,
-                                "cache_timestamp": 1702466191,
-                                "cache_status": "miss",
-                                "cache_filter": "fields:title|titleMenu",
-                                "start": 1702466191.389773,
-                                "end": 1702466191.390055,
-                                "microseconds": 0.00028204917907714844
-                            },
-                            "title": "Empresa"
-                        }
-                    ],
-                    "metadata": {
-                        "id": 21001,
-                        "tag": "submenu",
-                        "parent_class_id": 21,
-                        "child_class_id": 0,
-                        "multiple_child_class_id": "20,32",
-                        "direction": "parent",
-                        "start": 1702466191.389532,
-                        "end": 1702466191.390056,
-                        "seconds": 0.0005238056182861328
-                    }
-                }
+              },
+              "title": "Empresa"
             }
+          ],
+          "metadata": {
+            "id": 21001,
+            "tag": "submenu",
+            "parent_class_id": 21,
+            "child_class_id": 0,
+            "multiple_child_class_id": "20,32",
+            "direction": "parent",
+            "start": 1702466191.389532,
+            "end": 1702466191.390056,
+            "seconds": 0.0005238056182861328
+          }
         }
-    ]
+      }
+    }
+  ]
 }
