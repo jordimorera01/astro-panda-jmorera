@@ -29,5 +29,7 @@ const json = await response.json()
 const global = await response2.json()
 ---
 
-<h1>{global.title}</h1>{slug === 'textil-sanitario' && <Products data={json} />}
+<!-- <h1>{global.title}</h1> -->{
+  slug === 'textil-sanitario' && <Products data={json} />
+}
 <!-- <ReactComponent title={json.instance.title} /> -->
