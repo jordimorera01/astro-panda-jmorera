@@ -1,6 +1,8 @@
 ---
 import { css } from '../../../styled-system/css'
 import Header from '../Header/Header.astro'
+
+const { title } = Astro.props
 ---
 
 <!doctype html>
@@ -15,12 +17,11 @@ import Header from '../Header/Header.astro'
   </head>
   <body
     class={css({
-      backgroundColor: 'neutral.background.1.enabled'
+      backgroundColor: 'neutral.background.2.enabled'
     })}
   >
-    <Header />
-    <div class="container">
-      <slot />
-    </div>
+    <Header title={title} />
+
+    <slot />
   </body>
 </html>

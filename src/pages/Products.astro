@@ -1,16 +1,13 @@
 ---
 import Button from '../components/Button/Button.astro'
 import { Card } from '../components/Card/Card'
+import Header from '../components/Header/Header.astro'
 import PageLayout from '../components/Layout/PageLayout.astro'
 
 const { data } = Astro.props
 ---
 
-<PageLayout>
-  <h1>{data.instance.title}</h1>
-  <Button color="primary" url="https://www.youtube.com/watch?v=O43x26hiolw">
-    Hola que ase
-  </Button>
+<PageLayout title={data.instance.title}>
   {
     data.instance.relations.blocks.instances.map(block => {
       return <Card title={block.title} />

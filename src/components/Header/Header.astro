@@ -1,8 +1,9 @@
 ---
 import { cva } from '../../../styled-system/css'
-import ThemeIcon from './ThemeIcon.astro'
+import Container from '../Layout/Container.astro'
+import ThemeButton from './ThemeButton.astro'
 
-const HeaderRecipe = cva({
+const headerWrapper = cva({
   base: {
     display: 'flex',
     justifyContent: 'space-between',
@@ -10,8 +11,13 @@ const HeaderRecipe = cva({
     padding: '1rem'
   }
 })
+
+const { title } = Astro.props
 ---
 
-<header class={HeaderRecipe()}>
-  <ThemeIcon />
+<header class={headerWrapper()}>
+  <Container>
+    <h1>{title}</h1>
+    <ThemeButton />
+  </Container>
 </header>

@@ -155,29 +155,73 @@ const tokens = {
     "value": "1000ms",
     "variable": "var(--durations-1000)"
   },
+  "radii.1": {
+    "value": "0.125rem",
+    "variable": "var(--radii-1)"
+  },
+  "radii.2": {
+    "value": "0.25rem",
+    "variable": "var(--radii-2)"
+  },
+  "radii.3": {
+    "value": "0.5rem",
+    "variable": "var(--radii-3)"
+  },
+  "radii.4": {
+    "value": "1rem",
+    "variable": "var(--radii-4)"
+  },
   "radii.none": {
     "value": "0",
     "variable": "var(--radii-none)"
   },
-  "radii.sm": {
-    "value": "0.125rem",
-    "variable": "var(--radii-sm)"
-  },
-  "radii.md": {
-    "value": "0.25rem",
-    "variable": "var(--radii-md)"
-  },
-  "radii.lg": {
-    "value": "0.5rem",
-    "variable": "var(--radii-lg)"
-  },
-  "radii.xl": {
-    "value": "1rem",
-    "variable": "var(--radii-xl)"
-  },
   "radii.full": {
     "value": "9999px",
     "variable": "var(--radii-full)"
+  },
+  "spacing.1": {
+    "value": "0.125rem",
+    "variable": "var(--spacing-1)"
+  },
+  "spacing.2": {
+    "value": "0.25rem",
+    "variable": "var(--spacing-2)"
+  },
+  "spacing.3": {
+    "value": "0.5rem",
+    "variable": "var(--spacing-3)"
+  },
+  "spacing.4": {
+    "value": "1rem",
+    "variable": "var(--spacing-4)"
+  },
+  "spacing.5": {
+    "value": "2rem",
+    "variable": "var(--spacing-5)"
+  },
+  "spacing.6": {
+    "value": "4rem",
+    "variable": "var(--spacing-6)"
+  },
+  "spacing.7": {
+    "value": "8rem",
+    "variable": "var(--spacing-7)"
+  },
+  "spacing.8": {
+    "value": "16rem",
+    "variable": "var(--spacing-8)"
+  },
+  "spacing.9": {
+    "value": "32rem",
+    "variable": "var(--spacing-9)"
+  },
+  "spacing.10": {
+    "value": "64rem",
+    "variable": "var(--spacing-10)"
+  },
+  "spacing.none": {
+    "value": "0",
+    "variable": "var(--spacing-none)"
   },
   "breakpoints.sm": {
     "value": "640px",
@@ -382,6 +426,50 @@ const tokens = {
   "colors.brand.primary.stroke.2.selected": {
     "value": "var(--colors-brand-primary-stroke-2-selected)",
     "variable": "var(--colors-brand-primary-stroke-2-selected)"
+  },
+  "spacing.-1": {
+    "value": "calc(var(--spacing-1) * -1)",
+    "variable": "var(--spacing-1)"
+  },
+  "spacing.-2": {
+    "value": "calc(var(--spacing-2) * -1)",
+    "variable": "var(--spacing-2)"
+  },
+  "spacing.-3": {
+    "value": "calc(var(--spacing-3) * -1)",
+    "variable": "var(--spacing-3)"
+  },
+  "spacing.-4": {
+    "value": "calc(var(--spacing-4) * -1)",
+    "variable": "var(--spacing-4)"
+  },
+  "spacing.-5": {
+    "value": "calc(var(--spacing-5) * -1)",
+    "variable": "var(--spacing-5)"
+  },
+  "spacing.-6": {
+    "value": "calc(var(--spacing-6) * -1)",
+    "variable": "var(--spacing-6)"
+  },
+  "spacing.-7": {
+    "value": "calc(var(--spacing-7) * -1)",
+    "variable": "var(--spacing-7)"
+  },
+  "spacing.-8": {
+    "value": "calc(var(--spacing-8) * -1)",
+    "variable": "var(--spacing-8)"
+  },
+  "spacing.-9": {
+    "value": "calc(var(--spacing-9) * -1)",
+    "variable": "var(--spacing-9)"
+  },
+  "spacing.-10": {
+    "value": "calc(var(--spacing-10) * -1)",
+    "variable": "var(--spacing-10)"
+  },
+  "spacing.-none": {
+    "value": "calc(var(--spacing-none) * -1)",
+    "variable": "var(--spacing-none)"
   },
   "colors.colorPalette.50": {
     "value": "var(--colors-color-palette-50)",

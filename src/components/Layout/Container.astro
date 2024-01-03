@@ -1,0 +1,41 @@
+---
+import { cva } from '../../../styled-system/css'
+
+const container = cva({
+  base: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '100%',
+    height: '100%',
+    padding: '0 1rem',
+    margin: '0 auto',
+    maxWidth: '1200px',
+    boxSizing: 'border-box'
+  },
+  variants: {
+    size: {
+      fluid: {
+        maxWidth: '100%'
+      },
+      fixed: {
+        maxWidth: '1200px'
+      },
+      narrow: {
+        maxWidth: '800px'
+      }
+    }
+  }
+})
+
+interface Props {
+  size?: 'fluid' | 'fixed' | 'narrow'
+}
+
+const { size } = Astro.props
+---
+
+<div class={container({ size })}>
+  <slot />
+</div>

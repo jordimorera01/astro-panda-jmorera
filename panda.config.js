@@ -70,11 +70,24 @@ export default defineConfig({
       },
       radii: {
         none: { value: '0' },
-        sm: { value: '0.125rem' },
-        md: { value: '0.25rem' },
-        lg: { value: '0.5rem' },
-        xl: { value: '1rem' },
+        1: { value: '0.125rem' },
+        2: { value: '0.25rem' },
+        3: { value: '0.5rem' },
+        4: { value: '1rem' },
         full: { value: '9999px' }
+      },
+      spacing: {
+        none: { value: '0' },
+        1: { value: '0.125rem' },
+        2: { value: '0.25rem' },
+        3: { value: '0.5rem' },
+        4: { value: '1rem' },
+        5: { value: '2rem' },
+        6: { value: '4rem' },
+        7: { value: '8rem' },
+        8: { value: '16rem' },
+        9: { value: '32rem' },
+        10: { value: '64rem' }
       }
     },
     semanticTokens: {
@@ -311,7 +324,7 @@ export default defineConfig({
                 },
                 selected: {
                   value: {
-                    base: '{colors.blue.100}',
+                    base: '{colors.blue.500}',
                     _dark: '{colors.blue.900}'
                   }
                 }
