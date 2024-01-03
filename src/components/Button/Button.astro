@@ -1,0 +1,57 @@
+---
+import { cva } from '../../../styled-system/css/'
+
+const ButtonRecipe = cva({
+  base: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: '1rem',
+    fontFamily: 'inter',
+    fontWeight: '700',
+    transition: 'all',
+    transitionDuration: '300',
+    transitionTimingFunction: 'easeInOut',
+    borderRadius: 'none'
+  },
+  variants: {
+    color: {
+      neutral: {
+        backgroundColor: 'neutral.background.inverted.1.enabled',
+        color: 'neutral.foreground.onbrand.enabled',
+        _hover: {
+          backgroundColor: 'neutral.background.inverted.1.hovered',
+          color: 'neutral.foreground.onbrand.enabled'
+        }
+      },
+      primary: {
+        backgroundColor: 'brand.primary.background.3.enabled',
+        color: 'neutral.foreground.onbrand.enabled',
+
+        _hover: {
+          backgroundColor: 'brand.primary.background.3.hovered',
+          color: 'neutral.foreground.onbrand.enabled'
+        }
+      }
+    }
+  }
+})
+
+interface Props {
+  class?: string
+  target?: string
+  url: string
+  color: 'neutral' | 'primary'
+}
+
+const { url, target, color } = Astro.props
+---
+
+<a
+  href={url}
+  target=`${target ?? '_blank'}`
+  rel="noopener noreferrer"
+  class={ButtonRecipe({ color })}
+>
+  <slot />
+</a>

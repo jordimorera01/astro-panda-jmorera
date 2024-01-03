@@ -1,4 +1,4 @@
-import { cva } from '../../../styled-system/css/cva'
+import { cva } from '/styled-system/css/cva'
 
 export const ButtonFlamaRecipe = cva({
   base: {
@@ -12,7 +12,7 @@ export const ButtonFlamaRecipe = cva({
   },
   variants: {
     color: {
-      black: { backgroundColor: 'neutral' },
+      black: { backgroundColor: 'neutral.foreground.1.enabled' },
       yellow: { backgroundColor: 'yellow', color: 'black' }
     }
   }

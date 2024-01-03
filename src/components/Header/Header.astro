@@ -1,0 +1,17 @@
+---
+import { cva } from '../../../styled-system/css'
+import ThemeIcon from './ThemeIcon.astro'
+
+const HeaderRecipe = cva({
+  base: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: '1rem'
+  }
+})
+---
+
+<header class={HeaderRecipe()}>
+  <ThemeIcon />
+</header>

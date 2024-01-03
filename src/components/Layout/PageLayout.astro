@@ -1,5 +1,6 @@
 ---
 import { css } from '../../../styled-system/css'
+import Header from '../Header/Header.astro'
 ---
 
 <!doctype html>
@@ -17,6 +18,7 @@ import { css } from '../../../styled-system/css'
       backgroundColor: 'neutral.background.1.enabled'
     })}
   >
+    <Header />
     <div class="container">
       <slot />
     </div>

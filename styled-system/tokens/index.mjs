@@ -107,6 +107,78 @@ const tokens = {
     "value": "'Work Sans Variable', sans-serif",
     "variable": "var(--fonts-work)"
   },
+  "easings.easeIn": {
+    "value": "cubic-bezier(0.4, 0, 1, 1)",
+    "variable": "var(--easings-ease-in)"
+  },
+  "easings.easeOut": {
+    "value": "cubic-bezier(0, 0, 0.2, 1)",
+    "variable": "var(--easings-ease-out)"
+  },
+  "easings.easeInOut": {
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "variable": "var(--easings-ease-in-out)"
+  },
+  "durations.50": {
+    "value": "50ms",
+    "variable": "var(--durations-50)"
+  },
+  "durations.75": {
+    "value": "75ms",
+    "variable": "var(--durations-75)"
+  },
+  "durations.100": {
+    "value": "100ms",
+    "variable": "var(--durations-100)"
+  },
+  "durations.150": {
+    "value": "150ms",
+    "variable": "var(--durations-150)"
+  },
+  "durations.200": {
+    "value": "200ms",
+    "variable": "var(--durations-200)"
+  },
+  "durations.300": {
+    "value": "300ms",
+    "variable": "var(--durations-300)"
+  },
+  "durations.500": {
+    "value": "500ms",
+    "variable": "var(--durations-500)"
+  },
+  "durations.700": {
+    "value": "700ms",
+    "variable": "var(--durations-700)"
+  },
+  "durations.1000": {
+    "value": "1000ms",
+    "variable": "var(--durations-1000)"
+  },
+  "radii.none": {
+    "value": "0",
+    "variable": "var(--radii-none)"
+  },
+  "radii.sm": {
+    "value": "0.125rem",
+    "variable": "var(--radii-sm)"
+  },
+  "radii.md": {
+    "value": "0.25rem",
+    "variable": "var(--radii-md)"
+  },
+  "radii.lg": {
+    "value": "0.5rem",
+    "variable": "var(--radii-lg)"
+  },
+  "radii.xl": {
+    "value": "1rem",
+    "variable": "var(--radii-xl)"
+  },
+  "radii.full": {
+    "value": "9999px",
+    "variable": "var(--radii-full)"
+  },
   "breakpoints.sm": {
     "value": "640px",
     "variable": "var(--breakpoints-sm)"
@@ -151,9 +223,165 @@ const tokens = {
     "value": "var(--colors-neutral-foreground-1-enabled)",
     "variable": "var(--colors-neutral-foreground-1-enabled)"
   },
+  "colors.neutral.foreground.1.hovered": {
+    "value": "var(--colors-neutral-foreground-1-hovered)",
+    "variable": "var(--colors-neutral-foreground-1-hovered)"
+  },
+  "colors.neutral.foreground.1.selected": {
+    "value": "var(--colors-neutral-foreground-1-selected)",
+    "variable": "var(--colors-neutral-foreground-1-selected)"
+  },
+  "colors.neutral.foreground.2.enabled": {
+    "value": "var(--colors-neutral-foreground-2-enabled)",
+    "variable": "var(--colors-neutral-foreground-2-enabled)"
+  },
+  "colors.neutral.foreground.2.hovered": {
+    "value": "var(--colors-neutral-foreground-2-hovered)",
+    "variable": "var(--colors-neutral-foreground-2-hovered)"
+  },
+  "colors.neutral.foreground.2.selected": {
+    "value": "var(--colors-neutral-foreground-2-selected)",
+    "variable": "var(--colors-neutral-foreground-2-selected)"
+  },
+  "colors.neutral.foreground.3.enabled": {
+    "value": "var(--colors-neutral-foreground-3-enabled)",
+    "variable": "var(--colors-neutral-foreground-3-enabled)"
+  },
+  "colors.neutral.foreground.3.hovered": {
+    "value": "var(--colors-neutral-foreground-3-hovered)",
+    "variable": "var(--colors-neutral-foreground-3-hovered)"
+  },
+  "colors.neutral.foreground.onbrand.enabled": {
+    "value": "var(--colors-neutral-foreground-onbrand-enabled)",
+    "variable": "var(--colors-neutral-foreground-onbrand-enabled)"
+  },
+  "colors.neutral.foreground.inverted.enabled": {
+    "value": "var(--colors-neutral-foreground-inverted-enabled)",
+    "variable": "var(--colors-neutral-foreground-inverted-enabled)"
+  },
+  "colors.neutral.foreground.brand.primary.hovered": {
+    "value": "var(--colors-neutral-foreground-brand-primary-hovered)",
+    "variable": "var(--colors-neutral-foreground-brand-primary-hovered)"
+  },
   "colors.neutral.background.1.enabled": {
     "value": "var(--colors-neutral-background-1-enabled)",
     "variable": "var(--colors-neutral-background-1-enabled)"
+  },
+  "colors.neutral.background.2.enabled": {
+    "value": "var(--colors-neutral-background-2-enabled)",
+    "variable": "var(--colors-neutral-background-2-enabled)"
+  },
+  "colors.neutral.background.3.enabled": {
+    "value": "var(--colors-neutral-background-3-enabled)",
+    "variable": "var(--colors-neutral-background-3-enabled)"
+  },
+  "colors.neutral.background.4.enabled": {
+    "value": "var(--colors-neutral-background-4-enabled)",
+    "variable": "var(--colors-neutral-background-4-enabled)"
+  },
+  "colors.neutral.background.inverted.1.enabled": {
+    "value": "var(--colors-neutral-background-inverted-1-enabled)",
+    "variable": "var(--colors-neutral-background-inverted-1-enabled)"
+  },
+  "colors.neutral.background.inverted.1.hovered": {
+    "value": "var(--colors-neutral-background-inverted-1-hovered)",
+    "variable": "var(--colors-neutral-background-inverted-1-hovered)"
+  },
+  "colors.neutral.background.inverted.2.enabled": {
+    "value": "var(--colors-neutral-background-inverted-2-enabled)",
+    "variable": "var(--colors-neutral-background-inverted-2-enabled)"
+  },
+  "colors.neutral.background.inverted.2.hovered": {
+    "value": "var(--colors-neutral-background-inverted-2-hovered)",
+    "variable": "var(--colors-neutral-background-inverted-2-hovered)"
+  },
+  "colors.neutral.background.brand.primary.hovered": {
+    "value": "var(--colors-neutral-background-brand-primary-hovered)",
+    "variable": "var(--colors-neutral-background-brand-primary-hovered)"
+  },
+  "colors.neutral.background.alpha.enabled": {
+    "value": "var(--colors-neutral-background-alpha-enabled)",
+    "variable": "var(--colors-neutral-background-alpha-enabled)"
+  },
+  "colors.neutral.stroke.1.enabled": {
+    "value": "var(--colors-neutral-stroke-1-enabled)",
+    "variable": "var(--colors-neutral-stroke-1-enabled)"
+  },
+  "colors.neutral.stroke.2.enabled": {
+    "value": "var(--colors-neutral-stroke-2-enabled)",
+    "variable": "var(--colors-neutral-stroke-2-enabled)"
+  },
+  "colors.neutral.stroke.3.enabled": {
+    "value": "var(--colors-neutral-stroke-3-enabled)",
+    "variable": "var(--colors-neutral-stroke-3-enabled)"
+  },
+  "colors.neutral.stroke.4.enabled": {
+    "value": "var(--colors-neutral-stroke-4-enabled)",
+    "variable": "var(--colors-neutral-stroke-4-enabled)"
+  },
+  "colors.neutral.stroke.brand.primary.hovered": {
+    "value": "var(--colors-neutral-stroke-brand-primary-hovered)",
+    "variable": "var(--colors-neutral-stroke-brand-primary-hovered)"
+  },
+  "colors.brand.primary.foreground.1.enabled": {
+    "value": "var(--colors-brand-primary-foreground-1-enabled)",
+    "variable": "var(--colors-brand-primary-foreground-1-enabled)"
+  },
+  "colors.brand.primary.background.1.hovered": {
+    "value": "var(--colors-brand-primary-background-1-hovered)",
+    "variable": "var(--colors-brand-primary-background-1-hovered)"
+  },
+  "colors.brand.primary.background.1.selected": {
+    "value": "var(--colors-brand-primary-background-1-selected)",
+    "variable": "var(--colors-brand-primary-background-1-selected)"
+  },
+  "colors.brand.primary.background.2.enabled": {
+    "value": "var(--colors-brand-primary-background-2-enabled)",
+    "variable": "var(--colors-brand-primary-background-2-enabled)"
+  },
+  "colors.brand.primary.background.2.hovered": {
+    "value": "var(--colors-brand-primary-background-2-hovered)",
+    "variable": "var(--colors-brand-primary-background-2-hovered)"
+  },
+  "colors.brand.primary.background.2.selected": {
+    "value": "var(--colors-brand-primary-background-2-selected)",
+    "variable": "var(--colors-brand-primary-background-2-selected)"
+  },
+  "colors.brand.primary.background.3.enabled": {
+    "value": "var(--colors-brand-primary-background-3-enabled)",
+    "variable": "var(--colors-brand-primary-background-3-enabled)"
+  },
+  "colors.brand.primary.background.3.hovered": {
+    "value": "var(--colors-brand-primary-background-3-hovered)",
+    "variable": "var(--colors-brand-primary-background-3-hovered)"
+  },
+  "colors.brand.primary.background.3.selected": {
+    "value": "var(--colors-brand-primary-background-3-selected)",
+    "variable": "var(--colors-brand-primary-background-3-selected)"
+  },
+  "colors.brand.primary.background.subtle.enabled": {
+    "value": "var(--colors-brand-primary-background-subtle-enabled)",
+    "variable": "var(--colors-brand-primary-background-subtle-enabled)"
+  },
+  "colors.brand.primary.background.subtle.hovered": {
+    "value": "var(--colors-brand-primary-background-subtle-hovered)",
+    "variable": "var(--colors-brand-primary-background-subtle-hovered)"
+  },
+  "colors.brand.primary.stroke.1.enabled": {
+    "value": "var(--colors-brand-primary-stroke-1-enabled)",
+    "variable": "var(--colors-brand-primary-stroke-1-enabled)"
+  },
+  "colors.brand.primary.stroke.2.enabled": {
+    "value": "var(--colors-brand-primary-stroke-2-enabled)",
+    "variable": "var(--colors-brand-primary-stroke-2-enabled)"
+  },
+  "colors.brand.primary.stroke.2.hovered": {
+    "value": "var(--colors-brand-primary-stroke-2-hovered)",
+    "variable": "var(--colors-brand-primary-stroke-2-hovered)"
+  },
+  "colors.brand.primary.stroke.2.selected": {
+    "value": "var(--colors-brand-primary-stroke-2-selected)",
+    "variable": "var(--colors-brand-primary-stroke-2-selected)"
   },
   "colors.colorPalette.50": {
     "value": "var(--colors-color-palette-50)",
@@ -223,9 +451,293 @@ const tokens = {
     "value": "var(--colors-color-palette-enabled)",
     "variable": "var(--colors-color-palette-enabled)"
   },
+  "colors.colorPalette.foreground.1.hovered": {
+    "value": "var(--colors-color-palette-foreground-1-hovered)",
+    "variable": "var(--colors-color-palette-foreground-1-hovered)"
+  },
+  "colors.colorPalette.1.hovered": {
+    "value": "var(--colors-color-palette-1-hovered)",
+    "variable": "var(--colors-color-palette-1-hovered)"
+  },
+  "colors.colorPalette.hovered": {
+    "value": "var(--colors-color-palette-hovered)",
+    "variable": "var(--colors-color-palette-hovered)"
+  },
+  "colors.colorPalette.foreground.1.selected": {
+    "value": "var(--colors-color-palette-foreground-1-selected)",
+    "variable": "var(--colors-color-palette-foreground-1-selected)"
+  },
+  "colors.colorPalette.1.selected": {
+    "value": "var(--colors-color-palette-1-selected)",
+    "variable": "var(--colors-color-palette-1-selected)"
+  },
+  "colors.colorPalette.selected": {
+    "value": "var(--colors-color-palette-selected)",
+    "variable": "var(--colors-color-palette-selected)"
+  },
+  "colors.colorPalette.foreground.2.enabled": {
+    "value": "var(--colors-color-palette-foreground-2-enabled)",
+    "variable": "var(--colors-color-palette-foreground-2-enabled)"
+  },
+  "colors.colorPalette.2.enabled": {
+    "value": "var(--colors-color-palette-2-enabled)",
+    "variable": "var(--colors-color-palette-2-enabled)"
+  },
+  "colors.colorPalette.foreground.2.hovered": {
+    "value": "var(--colors-color-palette-foreground-2-hovered)",
+    "variable": "var(--colors-color-palette-foreground-2-hovered)"
+  },
+  "colors.colorPalette.2.hovered": {
+    "value": "var(--colors-color-palette-2-hovered)",
+    "variable": "var(--colors-color-palette-2-hovered)"
+  },
+  "colors.colorPalette.foreground.2.selected": {
+    "value": "var(--colors-color-palette-foreground-2-selected)",
+    "variable": "var(--colors-color-palette-foreground-2-selected)"
+  },
+  "colors.colorPalette.2.selected": {
+    "value": "var(--colors-color-palette-2-selected)",
+    "variable": "var(--colors-color-palette-2-selected)"
+  },
+  "colors.colorPalette.foreground.3.enabled": {
+    "value": "var(--colors-color-palette-foreground-3-enabled)",
+    "variable": "var(--colors-color-palette-foreground-3-enabled)"
+  },
+  "colors.colorPalette.3.enabled": {
+    "value": "var(--colors-color-palette-3-enabled)",
+    "variable": "var(--colors-color-palette-3-enabled)"
+  },
+  "colors.colorPalette.foreground.3.hovered": {
+    "value": "var(--colors-color-palette-foreground-3-hovered)",
+    "variable": "var(--colors-color-palette-foreground-3-hovered)"
+  },
+  "colors.colorPalette.3.hovered": {
+    "value": "var(--colors-color-palette-3-hovered)",
+    "variable": "var(--colors-color-palette-3-hovered)"
+  },
+  "colors.colorPalette.foreground.onbrand.enabled": {
+    "value": "var(--colors-color-palette-foreground-onbrand-enabled)",
+    "variable": "var(--colors-color-palette-foreground-onbrand-enabled)"
+  },
+  "colors.colorPalette.onbrand.enabled": {
+    "value": "var(--colors-color-palette-onbrand-enabled)",
+    "variable": "var(--colors-color-palette-onbrand-enabled)"
+  },
+  "colors.colorPalette.foreground.inverted.enabled": {
+    "value": "var(--colors-color-palette-foreground-inverted-enabled)",
+    "variable": "var(--colors-color-palette-foreground-inverted-enabled)"
+  },
+  "colors.colorPalette.inverted.enabled": {
+    "value": "var(--colors-color-palette-inverted-enabled)",
+    "variable": "var(--colors-color-palette-inverted-enabled)"
+  },
+  "colors.colorPalette.foreground.brand.primary.hovered": {
+    "value": "var(--colors-color-palette-foreground-brand-primary-hovered)",
+    "variable": "var(--colors-color-palette-foreground-brand-primary-hovered)"
+  },
+  "colors.colorPalette.brand.primary.hovered": {
+    "value": "var(--colors-color-palette-brand-primary-hovered)",
+    "variable": "var(--colors-color-palette-brand-primary-hovered)"
+  },
+  "colors.colorPalette.primary.hovered": {
+    "value": "var(--colors-color-palette-primary-hovered)",
+    "variable": "var(--colors-color-palette-primary-hovered)"
+  },
   "colors.colorPalette.background.1.enabled": {
     "value": "var(--colors-color-palette-background-1-enabled)",
     "variable": "var(--colors-color-palette-background-1-enabled)"
+  },
+  "colors.colorPalette.background.2.enabled": {
+    "value": "var(--colors-color-palette-background-2-enabled)",
+    "variable": "var(--colors-color-palette-background-2-enabled)"
+  },
+  "colors.colorPalette.background.3.enabled": {
+    "value": "var(--colors-color-palette-background-3-enabled)",
+    "variable": "var(--colors-color-palette-background-3-enabled)"
+  },
+  "colors.colorPalette.background.4.enabled": {
+    "value": "var(--colors-color-palette-background-4-enabled)",
+    "variable": "var(--colors-color-palette-background-4-enabled)"
+  },
+  "colors.colorPalette.4.enabled": {
+    "value": "var(--colors-color-palette-4-enabled)",
+    "variable": "var(--colors-color-palette-4-enabled)"
+  },
+  "colors.colorPalette.background.inverted.1.enabled": {
+    "value": "var(--colors-color-palette-background-inverted-1-enabled)",
+    "variable": "var(--colors-color-palette-background-inverted-1-enabled)"
+  },
+  "colors.colorPalette.inverted.1.enabled": {
+    "value": "var(--colors-color-palette-inverted-1-enabled)",
+    "variable": "var(--colors-color-palette-inverted-1-enabled)"
+  },
+  "colors.colorPalette.background.inverted.1.hovered": {
+    "value": "var(--colors-color-palette-background-inverted-1-hovered)",
+    "variable": "var(--colors-color-palette-background-inverted-1-hovered)"
+  },
+  "colors.colorPalette.inverted.1.hovered": {
+    "value": "var(--colors-color-palette-inverted-1-hovered)",
+    "variable": "var(--colors-color-palette-inverted-1-hovered)"
+  },
+  "colors.colorPalette.background.inverted.2.enabled": {
+    "value": "var(--colors-color-palette-background-inverted-2-enabled)",
+    "variable": "var(--colors-color-palette-background-inverted-2-enabled)"
+  },
+  "colors.colorPalette.inverted.2.enabled": {
+    "value": "var(--colors-color-palette-inverted-2-enabled)",
+    "variable": "var(--colors-color-palette-inverted-2-enabled)"
+  },
+  "colors.colorPalette.background.inverted.2.hovered": {
+    "value": "var(--colors-color-palette-background-inverted-2-hovered)",
+    "variable": "var(--colors-color-palette-background-inverted-2-hovered)"
+  },
+  "colors.colorPalette.inverted.2.hovered": {
+    "value": "var(--colors-color-palette-inverted-2-hovered)",
+    "variable": "var(--colors-color-palette-inverted-2-hovered)"
+  },
+  "colors.colorPalette.background.brand.primary.hovered": {
+    "value": "var(--colors-color-palette-background-brand-primary-hovered)",
+    "variable": "var(--colors-color-palette-background-brand-primary-hovered)"
+  },
+  "colors.colorPalette.background.alpha.enabled": {
+    "value": "var(--colors-color-palette-background-alpha-enabled)",
+    "variable": "var(--colors-color-palette-background-alpha-enabled)"
+  },
+  "colors.colorPalette.alpha.enabled": {
+    "value": "var(--colors-color-palette-alpha-enabled)",
+    "variable": "var(--colors-color-palette-alpha-enabled)"
+  },
+  "colors.colorPalette.stroke.1.enabled": {
+    "value": "var(--colors-color-palette-stroke-1-enabled)",
+    "variable": "var(--colors-color-palette-stroke-1-enabled)"
+  },
+  "colors.colorPalette.stroke.2.enabled": {
+    "value": "var(--colors-color-palette-stroke-2-enabled)",
+    "variable": "var(--colors-color-palette-stroke-2-enabled)"
+  },
+  "colors.colorPalette.stroke.3.enabled": {
+    "value": "var(--colors-color-palette-stroke-3-enabled)",
+    "variable": "var(--colors-color-palette-stroke-3-enabled)"
+  },
+  "colors.colorPalette.stroke.4.enabled": {
+    "value": "var(--colors-color-palette-stroke-4-enabled)",
+    "variable": "var(--colors-color-palette-stroke-4-enabled)"
+  },
+  "colors.colorPalette.stroke.brand.primary.hovered": {
+    "value": "var(--colors-color-palette-stroke-brand-primary-hovered)",
+    "variable": "var(--colors-color-palette-stroke-brand-primary-hovered)"
+  },
+  "colors.colorPalette.primary.foreground.1.enabled": {
+    "value": "var(--colors-color-palette-primary-foreground-1-enabled)",
+    "variable": "var(--colors-color-palette-primary-foreground-1-enabled)"
+  },
+  "colors.colorPalette.primary.background.1.hovered": {
+    "value": "var(--colors-color-palette-primary-background-1-hovered)",
+    "variable": "var(--colors-color-palette-primary-background-1-hovered)"
+  },
+  "colors.colorPalette.background.1.hovered": {
+    "value": "var(--colors-color-palette-background-1-hovered)",
+    "variable": "var(--colors-color-palette-background-1-hovered)"
+  },
+  "colors.colorPalette.primary.background.1.selected": {
+    "value": "var(--colors-color-palette-primary-background-1-selected)",
+    "variable": "var(--colors-color-palette-primary-background-1-selected)"
+  },
+  "colors.colorPalette.background.1.selected": {
+    "value": "var(--colors-color-palette-background-1-selected)",
+    "variable": "var(--colors-color-palette-background-1-selected)"
+  },
+  "colors.colorPalette.primary.background.2.enabled": {
+    "value": "var(--colors-color-palette-primary-background-2-enabled)",
+    "variable": "var(--colors-color-palette-primary-background-2-enabled)"
+  },
+  "colors.colorPalette.primary.background.2.hovered": {
+    "value": "var(--colors-color-palette-primary-background-2-hovered)",
+    "variable": "var(--colors-color-palette-primary-background-2-hovered)"
+  },
+  "colors.colorPalette.background.2.hovered": {
+    "value": "var(--colors-color-palette-background-2-hovered)",
+    "variable": "var(--colors-color-palette-background-2-hovered)"
+  },
+  "colors.colorPalette.primary.background.2.selected": {
+    "value": "var(--colors-color-palette-primary-background-2-selected)",
+    "variable": "var(--colors-color-palette-primary-background-2-selected)"
+  },
+  "colors.colorPalette.background.2.selected": {
+    "value": "var(--colors-color-palette-background-2-selected)",
+    "variable": "var(--colors-color-palette-background-2-selected)"
+  },
+  "colors.colorPalette.primary.background.3.enabled": {
+    "value": "var(--colors-color-palette-primary-background-3-enabled)",
+    "variable": "var(--colors-color-palette-primary-background-3-enabled)"
+  },
+  "colors.colorPalette.primary.background.3.hovered": {
+    "value": "var(--colors-color-palette-primary-background-3-hovered)",
+    "variable": "var(--colors-color-palette-primary-background-3-hovered)"
+  },
+  "colors.colorPalette.background.3.hovered": {
+    "value": "var(--colors-color-palette-background-3-hovered)",
+    "variable": "var(--colors-color-palette-background-3-hovered)"
+  },
+  "colors.colorPalette.primary.background.3.selected": {
+    "value": "var(--colors-color-palette-primary-background-3-selected)",
+    "variable": "var(--colors-color-palette-primary-background-3-selected)"
+  },
+  "colors.colorPalette.background.3.selected": {
+    "value": "var(--colors-color-palette-background-3-selected)",
+    "variable": "var(--colors-color-palette-background-3-selected)"
+  },
+  "colors.colorPalette.3.selected": {
+    "value": "var(--colors-color-palette-3-selected)",
+    "variable": "var(--colors-color-palette-3-selected)"
+  },
+  "colors.colorPalette.primary.background.subtle.enabled": {
+    "value": "var(--colors-color-palette-primary-background-subtle-enabled)",
+    "variable": "var(--colors-color-palette-primary-background-subtle-enabled)"
+  },
+  "colors.colorPalette.background.subtle.enabled": {
+    "value": "var(--colors-color-palette-background-subtle-enabled)",
+    "variable": "var(--colors-color-palette-background-subtle-enabled)"
+  },
+  "colors.colorPalette.subtle.enabled": {
+    "value": "var(--colors-color-palette-subtle-enabled)",
+    "variable": "var(--colors-color-palette-subtle-enabled)"
+  },
+  "colors.colorPalette.primary.background.subtle.hovered": {
+    "value": "var(--colors-color-palette-primary-background-subtle-hovered)",
+    "variable": "var(--colors-color-palette-primary-background-subtle-hovered)"
+  },
+  "colors.colorPalette.background.subtle.hovered": {
+    "value": "var(--colors-color-palette-background-subtle-hovered)",
+    "variable": "var(--colors-color-palette-background-subtle-hovered)"
+  },
+  "colors.colorPalette.subtle.hovered": {
+    "value": "var(--colors-color-palette-subtle-hovered)",
+    "variable": "var(--colors-color-palette-subtle-hovered)"
+  },
+  "colors.colorPalette.primary.stroke.1.enabled": {
+    "value": "var(--colors-color-palette-primary-stroke-1-enabled)",
+    "variable": "var(--colors-color-palette-primary-stroke-1-enabled)"
+  },
+  "colors.colorPalette.primary.stroke.2.enabled": {
+    "value": "var(--colors-color-palette-primary-stroke-2-enabled)",
+    "variable": "var(--colors-color-palette-primary-stroke-2-enabled)"
+  },
+  "colors.colorPalette.primary.stroke.2.hovered": {
+    "value": "var(--colors-color-palette-primary-stroke-2-hovered)",
+    "variable": "var(--colors-color-palette-primary-stroke-2-hovered)"
+  },
+  "colors.colorPalette.stroke.2.hovered": {
+    "value": "var(--colors-color-palette-stroke-2-hovered)",
+    "variable": "var(--colors-color-palette-stroke-2-hovered)"
+  },
+  "colors.colorPalette.primary.stroke.2.selected": {
+    "value": "var(--colors-color-palette-primary-stroke-2-selected)",
+    "variable": "var(--colors-color-palette-primary-stroke-2-selected)"
+  },
+  "colors.colorPalette.stroke.2.selected": {
+    "value": "var(--colors-color-palette-stroke-2-selected)",
+    "variable": "var(--colors-color-palette-stroke-2-selected)"
   }
 }
 

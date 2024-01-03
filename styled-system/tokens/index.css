@@ -27,6 +27,24 @@
   --colors-black: #000000;
   --fonts-inter: 'Inter', sans-serif;
   --fonts-work: 'Work Sans Variable', sans-serif;
+  --easings-ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --easings-ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --easings-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --durations-50: 50ms;
+  --durations-75: 75ms;
+  --durations-100: 100ms;
+  --durations-150: 150ms;
+  --durations-200: 200ms;
+  --durations-300: 300ms;
+  --durations-500: 500ms;
+  --durations-700: 700ms;
+  --durations-1000: 1000ms;
+  --radii-none: 0;
+  --radii-sm: 0.125rem;
+  --radii-md: 0.25rem;
+  --radii-lg: 0.5rem;
+  --radii-xl: 1rem;
+  --radii-full: 9999px;
   --breakpoints-sm: 640px;
   --breakpoints-md: 768px;
   --breakpoints-lg: 1024px;
@@ -38,12 +56,90 @@
   --sizes-breakpoint-xl: 1280px;
   --sizes-breakpoint-2xl: 1536px;
   --colors-neutral-foreground-1-enabled: var(--colors-gray-900);
-  --colors-neutral-background-1-enabled: var(--colors-gray-50)
+  --colors-neutral-foreground-1-hovered: var(--colors-gray-900);
+  --colors-neutral-foreground-1-selected: var(--colors-gray-900);
+  --colors-neutral-foreground-2-enabled: var(--colors-gray-600);
+  --colors-neutral-foreground-2-hovered: var(--colors-gray-800);
+  --colors-neutral-foreground-2-selected: var(--colors-gray-800);
+  --colors-neutral-foreground-3-enabled: var(--colors-gray-300);
+  --colors-neutral-foreground-3-hovered: var(--colors-gray-400);
+  --colors-neutral-foreground-onbrand-enabled: var(--colors-white);
+  --colors-neutral-foreground-inverted-enabled: var(--colors-white);
+  --colors-neutral-foreground-brand-primary-hovered: var(--colors-blue-500);
+  --colors-neutral-background-1-enabled: var(--colors-white);
+  --colors-neutral-background-2-enabled: var(--colors-gray-50);
+  --colors-neutral-background-3-enabled: var(--colors-gray-75);
+  --colors-neutral-background-4-enabled: var(--colors-gray-100);
+  --colors-neutral-background-inverted-1-enabled: var(--colors-gray-900);
+  --colors-neutral-background-inverted-1-hovered: var(--colors-black);
+  --colors-neutral-background-inverted-2-enabled: var(--colors-gray-700);
+  --colors-neutral-background-inverted-2-hovered: var(--colors-gray-800);
+  --colors-neutral-background-brand-primary-hovered: var(--colors-blue-500);
+  --colors-neutral-background-alpha-enabled: rgba(255, 255, 255, 9);
+  --colors-neutral-stroke-1-enabled: var(--colors-gray-50);
+  --colors-neutral-stroke-2-enabled: var(--colors-gray-200);
+  --colors-neutral-stroke-3-enabled: var(--colors-gray-700);
+  --colors-neutral-stroke-4-enabled: var(--colors-black);
+  --colors-neutral-stroke-brand-primary-hovered: var(--colors-blue-500);
+  --colors-brand-primary-foreground-1-enabled: var(--colors-blue-500);
+  --colors-brand-primary-background-1-hovered: var(--colors-blue-100);
+  --colors-brand-primary-background-1-selected: var(--colors-blue-100);
+  --colors-brand-primary-background-2-enabled: var(--colors-blue-50);
+  --colors-brand-primary-background-2-hovered: var(--colors-blue-500);
+  --colors-brand-primary-background-2-selected: var(--colors-blue-500);
+  --colors-brand-primary-background-3-enabled: var(--colors-blue-500);
+  --colors-brand-primary-background-3-hovered: var(--colors-blue-900);
+  --colors-brand-primary-background-3-selected: var(--colors-blue-600);
+  --colors-brand-primary-background-subtle-enabled: var(--colors-blue-50);
+  --colors-brand-primary-background-subtle-hovered: var(--colors-blue-50);
+  --colors-brand-primary-stroke-1-enabled: var(--colors-blue-100);
+  --colors-brand-primary-stroke-2-enabled: var(--colors-blue-500);
+  --colors-brand-primary-stroke-2-hovered: var(--colors-blue-700);
+  --colors-brand-primary-stroke-2-selected: var(--colors-blue-700)
 }
 
 [data-color-mode=dark] {
   --colors-neutral-foreground-1-enabled: var(--colors-white);
-  --colors-neutral-background-1-enabled: var(--colors-gray-950)
+  --colors-neutral-foreground-1-hovered: var(--colors-white);
+  --colors-neutral-foreground-1-selected: var(--colors-white);
+  --colors-neutral-foreground-2-enabled: var(--colors-gray-200);
+  --colors-neutral-foreground-2-hovered: var(--colors-white);
+  --colors-neutral-foreground-2-selected: var(--colors-gray-200);
+  --colors-neutral-foreground-3-enabled: var(--colors-gray-600);
+  --colors-neutral-foreground-3-hovered: var(--colors-gray-500);
+  --colors-neutral-foreground-onbrand-enabled: var(--colors-white);
+  --colors-neutral-foreground-inverted-enabled: var(--colors-gray-900);
+  --colors-neutral-foreground-brand-primary-hovered: var(--colors-blue-500);
+  --colors-neutral-background-1-enabled: var(--colors-gray-950);
+  --colors-neutral-background-2-enabled: var(--colors-gray-900);
+  --colors-neutral-background-3-enabled: var(--colors-gray-800);
+  --colors-neutral-background-4-enabled: var(--colors-gray-600);
+  --colors-neutral-background-inverted-1-enabled: var(--colors-white);
+  --colors-neutral-background-inverted-1-hovered: var(--colors-gray-50);
+  --colors-neutral-background-inverted-2-enabled: var(--colors-white);
+  --colors-neutral-background-inverted-2-hovered: var(--colors-gray-50);
+  --colors-neutral-background-brand-primary-hovered: var(--colors-blue-500);
+  --colors-neutral-background-alpha-enabled: rgba(0, 0, 0, 9);
+  --colors-neutral-stroke-1-enabled: var(--colors-gray-800);
+  --colors-neutral-stroke-2-enabled: var(--colors-gray-700);
+  --colors-neutral-stroke-3-enabled: var(--colors-gray-300);
+  --colors-neutral-stroke-4-enabled: var(--colors-white);
+  --colors-neutral-stroke-brand-primary-hovered: var(--colors-blue-500);
+  --colors-brand-primary-foreground-1-enabled: var(--colors-blue-500);
+  --colors-brand-primary-background-1-hovered: var(--colors-blue-900);
+  --colors-brand-primary-background-1-selected: var(--colors-blue-900);
+  --colors-brand-primary-background-2-enabled: var(--colors-blue-800);
+  --colors-brand-primary-background-2-hovered: var(--colors-blue-900);
+  --colors-brand-primary-background-2-selected: var(--colors-blue-900);
+  --colors-brand-primary-background-3-enabled: var(--colors-blue-400);
+  --colors-brand-primary-background-3-hovered: var(--colors-blue-300);
+  --colors-brand-primary-background-3-selected: var(--colors-blue-300);
+  --colors-brand-primary-background-subtle-enabled: var(--colors-blue-800);
+  --colors-brand-primary-background-subtle-hovered: var(--colors-blue-800);
+  --colors-brand-primary-stroke-1-enabled: var(--colors-blue-800);
+  --colors-brand-primary-stroke-2-enabled: var(--colors-blue-400);
+  --colors-brand-primary-stroke-2-hovered: var(--colors-blue-200);
+  --colors-brand-primary-stroke-2-selected: var(--colors-blue-200)
 }
   }
   
