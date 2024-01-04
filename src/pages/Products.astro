@@ -1,16 +1,27 @@
 ---
-import Button from '../components/Button/Button.astro'
-import { Card } from '../components/Card/Card'
-import Header from '../components/Header/Header.astro'
+import { css } from '../../styled-system/css/'
+import Card from '../components/Card/Card.astro'
+import Container from '../components/Layout/Container.astro'
 import PageLayout from '../components/Layout/PageLayout.astro'
 
-const { data } = Astro.props
+const cardGrid = css({
+  display: 'grid',
+  gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
+  gridGap: 'm'
+})
+
+const { data, images } = Astro.props
 ---
 
 <PageLayout title={data.instance.title}>
-  {
-    data.instance.relations.blocks.instances.map(block => {
-      return <Card title={block.title} />
-    })
-  }
+  <Container>
+    <div class={cardGrid}>
+      {
+        data.instance.relations.blocks.instances.map(block => {
+          const { url, alt } = images.find(img => img.id === block.id)
+          return <Card title={block.title} cardImg={url} altImg={alt} />
+        })
+      }
+    </div>
+  </Container>
 </PageLayout>

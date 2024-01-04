@@ -1,7 +1,7 @@
 ---
 import { cva } from '../../../styled-system/css/'
 
-const ButtonRecipe = cva({
+const button = cva({
   base: {
     display: 'flex',
     justifyContent: 'center',
@@ -51,7 +51,7 @@ const { url, target, color } = Astro.props
   href={url}
   target=`${target ?? '_blank'}`
   rel="noopener noreferrer"
-  class={ButtonRecipe({ color })}
+  class={button({ color })}
 >
   <slot />
 </a>

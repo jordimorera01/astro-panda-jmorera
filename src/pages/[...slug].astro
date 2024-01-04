@@ -2,6 +2,7 @@
 import '@fontsource-variable/inter'
 import '@fontsource-variable/work-sans'
 
+import images from '../../mocks/images.json'
 import Products from './Products.astro'
 
 export function getStaticPaths() {
@@ -31,7 +32,7 @@ const global = await response2.json()
 ---
 
 <!-- <h1>{global.title}</h1> -->{
-  slug === 'textil-sanitario' && <Products data={json} />
+  slug === 'textil-sanitario' && <Products images={images} data={json} />
 }
 <!-- <ReactComponent title={json.instance.title} /> -->
 

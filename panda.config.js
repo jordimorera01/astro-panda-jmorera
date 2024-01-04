@@ -52,6 +52,17 @@ export default defineConfig({
         inter: { value: `'Inter', sans-serif` },
         work: { value: `'Work Sans Variable', sans-serif` }
       },
+      fontSizes: {
+        'xs': { value: '0.75rem' },
+        's': { value: '0.875rem' },
+        'm': { value: '1rem' },
+        'ml': { value: '1.125rem' },
+        'l': { value: '1.5rem' },
+        'xl': { value: '2rem' },
+        '2xl': { value: '3rem' },
+        '3xl': { value: '4rem' },
+        '4xl': { value: '5rem' }
+      },
       easings: {
         easeIn: { value: 'cubic-bezier(0.4, 0, 1, 1)' },
         easeOut: { value: 'cubic-bezier(0, 0, 0.2, 1)' },
@@ -70,24 +81,24 @@ export default defineConfig({
       },
       radii: {
         none: { value: '0' },
-        1: { value: '0.125rem' },
-        2: { value: '0.25rem' },
-        3: { value: '0.5rem' },
-        4: { value: '1rem' },
+        xs: { value: '0.125rem' },
+        s: { value: '0.25rem' },
+        sm: { value: '0.5rem' },
+        m: { value: '1rem' },
         full: { value: '9999px' }
       },
       spacing: {
-        none: { value: '0' },
-        1: { value: '0.125rem' },
-        2: { value: '0.25rem' },
-        3: { value: '0.5rem' },
-        4: { value: '1rem' },
-        5: { value: '2rem' },
-        6: { value: '4rem' },
-        7: { value: '8rem' },
-        8: { value: '16rem' },
-        9: { value: '32rem' },
-        10: { value: '64rem' }
+        'none': { value: '0' },
+        'xs': { value: '0.125rem' },
+        's': { value: '0.25rem' },
+        'sm': { value: '0.5rem' },
+        'm': { value: '1rem' },
+        'l': { value: '2rem' },
+        'xl': { value: '4rem' },
+        '2xl': { value: '8rem' },
+        '3xl': { value: '16rem' },
+        '4xl': { value: '32rem' },
+        '5xl': { value: '64rem' }
       }
     },
     semanticTokens: {

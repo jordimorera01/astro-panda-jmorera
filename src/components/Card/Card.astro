@@ -1,0 +1,40 @@
+---
+import { css } from '../../../styled-system/css'
+import Text from '../Text/Text.astro'
+
+const article = css({
+  'display': 'grid',
+  'gridTemplateColumns': '1fr',
+  'gridTemplateRows': '1fr',
+  'height': '300px',
+  '& img': {
+    gridColumn: '1 / 2',
+    gridRow: '1 / 2',
+    height: '100%',
+    maxWidth: '100%',
+    objectFit: 'cover'
+  },
+  '& div': {
+    gridColumn: '1 / 2',
+    gridRow: '1 / 2',
+    height: '100%'
+  }
+})
+
+interface Props {
+  cardImg: string
+  altImg: string
+  title: string
+}
+
+const { cardImg, altImg, title } = Astro.props
+---
+
+<article class={article}>
+  <img src={cardImg} alt={altImg} />
+  <div>
+    <Text as="h3" size="text4" weight="400" color="neutral">
+      {title}
+    </Text>
+  </div>
+</article>

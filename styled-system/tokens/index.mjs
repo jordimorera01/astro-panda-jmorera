@@ -107,6 +107,42 @@ const tokens = {
     "value": "'Work Sans Variable', sans-serif",
     "variable": "var(--fonts-work)"
   },
+  "fontSizes.xs": {
+    "value": "0.75rem",
+    "variable": "var(--font-sizes-xs)"
+  },
+  "fontSizes.s": {
+    "value": "0.875rem",
+    "variable": "var(--font-sizes-s)"
+  },
+  "fontSizes.m": {
+    "value": "1rem",
+    "variable": "var(--font-sizes-m)"
+  },
+  "fontSizes.ml": {
+    "value": "1.125rem",
+    "variable": "var(--font-sizes-ml)"
+  },
+  "fontSizes.l": {
+    "value": "1.5rem",
+    "variable": "var(--font-sizes-l)"
+  },
+  "fontSizes.xl": {
+    "value": "2rem",
+    "variable": "var(--font-sizes-xl)"
+  },
+  "fontSizes.2xl": {
+    "value": "3rem",
+    "variable": "var(--font-sizes-2xl)"
+  },
+  "fontSizes.3xl": {
+    "value": "4rem",
+    "variable": "var(--font-sizes-3xl)"
+  },
+  "fontSizes.4xl": {
+    "value": "5rem",
+    "variable": "var(--font-sizes-4xl)"
+  },
   "easings.easeIn": {
     "value": "cubic-bezier(0.4, 0, 1, 1)",
     "variable": "var(--easings-ease-in)"
@@ -155,73 +191,73 @@ const tokens = {
     "value": "1000ms",
     "variable": "var(--durations-1000)"
   },
-  "radii.1": {
-    "value": "0.125rem",
-    "variable": "var(--radii-1)"
-  },
-  "radii.2": {
-    "value": "0.25rem",
-    "variable": "var(--radii-2)"
-  },
-  "radii.3": {
-    "value": "0.5rem",
-    "variable": "var(--radii-3)"
-  },
-  "radii.4": {
-    "value": "1rem",
-    "variable": "var(--radii-4)"
-  },
   "radii.none": {
     "value": "0",
     "variable": "var(--radii-none)"
+  },
+  "radii.xs": {
+    "value": "0.125rem",
+    "variable": "var(--radii-xs)"
+  },
+  "radii.s": {
+    "value": "0.25rem",
+    "variable": "var(--radii-s)"
+  },
+  "radii.sm": {
+    "value": "0.5rem",
+    "variable": "var(--radii-sm)"
+  },
+  "radii.m": {
+    "value": "1rem",
+    "variable": "var(--radii-m)"
   },
   "radii.full": {
     "value": "9999px",
     "variable": "var(--radii-full)"
   },
-  "spacing.1": {
-    "value": "0.125rem",
-    "variable": "var(--spacing-1)"
-  },
-  "spacing.2": {
-    "value": "0.25rem",
-    "variable": "var(--spacing-2)"
-  },
-  "spacing.3": {
-    "value": "0.5rem",
-    "variable": "var(--spacing-3)"
-  },
-  "spacing.4": {
-    "value": "1rem",
-    "variable": "var(--spacing-4)"
-  },
-  "spacing.5": {
-    "value": "2rem",
-    "variable": "var(--spacing-5)"
-  },
-  "spacing.6": {
-    "value": "4rem",
-    "variable": "var(--spacing-6)"
-  },
-  "spacing.7": {
-    "value": "8rem",
-    "variable": "var(--spacing-7)"
-  },
-  "spacing.8": {
-    "value": "16rem",
-    "variable": "var(--spacing-8)"
-  },
-  "spacing.9": {
-    "value": "32rem",
-    "variable": "var(--spacing-9)"
-  },
-  "spacing.10": {
-    "value": "64rem",
-    "variable": "var(--spacing-10)"
-  },
   "spacing.none": {
     "value": "0",
     "variable": "var(--spacing-none)"
+  },
+  "spacing.xs": {
+    "value": "0.125rem",
+    "variable": "var(--spacing-xs)"
+  },
+  "spacing.s": {
+    "value": "0.25rem",
+    "variable": "var(--spacing-s)"
+  },
+  "spacing.sm": {
+    "value": "0.5rem",
+    "variable": "var(--spacing-sm)"
+  },
+  "spacing.m": {
+    "value": "1rem",
+    "variable": "var(--spacing-m)"
+  },
+  "spacing.l": {
+    "value": "2rem",
+    "variable": "var(--spacing-l)"
+  },
+  "spacing.xl": {
+    "value": "4rem",
+    "variable": "var(--spacing-xl)"
+  },
+  "spacing.2xl": {
+    "value": "8rem",
+    "variable": "var(--spacing-2xl)"
+  },
+  "spacing.3xl": {
+    "value": "16rem",
+    "variable": "var(--spacing-3xl)"
+  },
+  "spacing.4xl": {
+    "value": "32rem",
+    "variable": "var(--spacing-4xl)"
+  },
+  "spacing.5xl": {
+    "value": "64rem",
+    "variable": "var(--spacing-5xl)"
   },
   "breakpoints.sm": {
     "value": "640px",
@@ -427,49 +463,49 @@ const tokens = {
     "value": "var(--colors-brand-primary-stroke-2-selected)",
     "variable": "var(--colors-brand-primary-stroke-2-selected)"
   },
-  "spacing.-1": {
-    "value": "calc(var(--spacing-1) * -1)",
-    "variable": "var(--spacing-1)"
-  },
-  "spacing.-2": {
-    "value": "calc(var(--spacing-2) * -1)",
-    "variable": "var(--spacing-2)"
-  },
-  "spacing.-3": {
-    "value": "calc(var(--spacing-3) * -1)",
-    "variable": "var(--spacing-3)"
-  },
-  "spacing.-4": {
-    "value": "calc(var(--spacing-4) * -1)",
-    "variable": "var(--spacing-4)"
-  },
-  "spacing.-5": {
-    "value": "calc(var(--spacing-5) * -1)",
-    "variable": "var(--spacing-5)"
-  },
-  "spacing.-6": {
-    "value": "calc(var(--spacing-6) * -1)",
-    "variable": "var(--spacing-6)"
-  },
-  "spacing.-7": {
-    "value": "calc(var(--spacing-7) * -1)",
-    "variable": "var(--spacing-7)"
-  },
-  "spacing.-8": {
-    "value": "calc(var(--spacing-8) * -1)",
-    "variable": "var(--spacing-8)"
-  },
-  "spacing.-9": {
-    "value": "calc(var(--spacing-9) * -1)",
-    "variable": "var(--spacing-9)"
-  },
-  "spacing.-10": {
-    "value": "calc(var(--spacing-10) * -1)",
-    "variable": "var(--spacing-10)"
-  },
   "spacing.-none": {
     "value": "calc(var(--spacing-none) * -1)",
     "variable": "var(--spacing-none)"
+  },
+  "spacing.-xs": {
+    "value": "calc(var(--spacing-xs) * -1)",
+    "variable": "var(--spacing-xs)"
+  },
+  "spacing.-s": {
+    "value": "calc(var(--spacing-s) * -1)",
+    "variable": "var(--spacing-s)"
+  },
+  "spacing.-sm": {
+    "value": "calc(var(--spacing-sm) * -1)",
+    "variable": "var(--spacing-sm)"
+  },
+  "spacing.-m": {
+    "value": "calc(var(--spacing-m) * -1)",
+    "variable": "var(--spacing-m)"
+  },
+  "spacing.-l": {
+    "value": "calc(var(--spacing-l) * -1)",
+    "variable": "var(--spacing-l)"
+  },
+  "spacing.-xl": {
+    "value": "calc(var(--spacing-xl) * -1)",
+    "variable": "var(--spacing-xl)"
+  },
+  "spacing.-2xl": {
+    "value": "calc(var(--spacing-2xl) * -1)",
+    "variable": "var(--spacing-2xl)"
+  },
+  "spacing.-3xl": {
+    "value": "calc(var(--spacing-3xl) * -1)",
+    "variable": "var(--spacing-3xl)"
+  },
+  "spacing.-4xl": {
+    "value": "calc(var(--spacing-4xl) * -1)",
+    "variable": "var(--spacing-4xl)"
+  },
+  "spacing.-5xl": {
+    "value": "calc(var(--spacing-5xl) * -1)",
+    "variable": "var(--spacing-5xl)"
   },
   "colors.colorPalette.50": {
     "value": "var(--colors-color-palette-50)",

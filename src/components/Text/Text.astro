@@ -1,0 +1,65 @@
+---
+import { cva } from '../../../styled-system/css'
+
+const text = cva({
+  base: {
+    fontFamily: 'inter',
+    fontSize: 'm',
+    color: 'neutral.foreground.1.enabled',
+    fontWeight: 400
+  },
+  variants: {
+    size: {
+      text1: {
+        fontSize: 'xs'
+      },
+      text2: {
+        fontSize: 's'
+      },
+      text3: {
+        fontSize: 'sm'
+      },
+      text4: {
+        fontSize: 'm'
+      },
+      text5: {
+        fontSize: 'l'
+      },
+      text6: {
+        fontSize: 'xl'
+      }
+    },
+    weight: {
+      300: {
+        fontWeight: 300
+      },
+      400: {
+        fontWeight: 400
+      },
+      700: {
+        fontWeight: 700
+      }
+    },
+    color: {
+      neutral: {
+        color: 'neutral.foreground.1.enabled'
+      },
+      primary: {
+        color: 'brand.primary.foreground.1.enabled'
+      }
+    }
+  }
+})
+
+interface Props {
+  as: string
+  size?: 'text1' | 'text2' | 'text3' | 'text4' | 'text5' | 'text6'
+  weight?: '300' | '400' | '700'
+  color?: 'neutral' | 'primary'
+}
+
+const { as, size, weight, color } = Astro.props
+const Tag = as
+---
+
+<Tag class={text({ size, weight, color })}><slot /></Tag>
