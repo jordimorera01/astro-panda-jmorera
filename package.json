@@ -10,7 +10,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "api": "restapify serve ./mocks --port 8080 --no-open",
-    "lint": "prettier --write . --plugin=prettier-plugin-astro \"**/*.{js,jsx,ts,tsx,md,mdx,astro}\" && eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\""
+    "lint": "prettier --write . --plugin=prettier-plugin-astro \"**/*.{js,jsx,ts,tsx,md,mdx,astro}\" && eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\"",
+    "panda": "panda codegen"
   },
   "dependencies": {
     "@astrojs/react": "^3.0.7",

@@ -6,8 +6,8 @@ import PageLayout from '../components/Layout/PageLayout.astro'
 
 const cardGrid = css({
   display: 'grid',
-  gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
-  gridGap: 'm'
+  gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))',
+  gridGap: 'l'
 })
 
 const { data, images } = Astro.props
@@ -19,7 +19,14 @@ const { data, images } = Astro.props
       {
         data.instance.relations.blocks.instances.map(block => {
           const { url, alt } = images.find(img => img.id === block.id)
-          return <Card title={block.title} cardImg={url} altImg={alt} />
+          return (
+            <Card
+              title={block.title}
+              cardImg={url}
+              altImg={alt}
+              description={block.description}
+            />
+          )
         })
       }
     </div>

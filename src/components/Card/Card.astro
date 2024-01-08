@@ -6,7 +6,7 @@ const article = css({
   'display': 'grid',
   'gridTemplateColumns': '1fr',
   'gridTemplateRows': '1fr',
-  'height': '300px',
+  'height': '420px',
   '& img': {
     gridColumn: '1 / 2',
     gridRow: '1 / 2',
@@ -17,7 +17,40 @@ const article = css({
   '& div': {
     gridColumn: '1 / 2',
     gridRow: '1 / 2',
-    height: '100%'
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'flex-end'
+  }
+})
+
+const textWrapper = css({
+  padding: 'm',
+  backgroundColor: 'neutral.background.alpha.enabled',
+  transition: 'all',
+  transitionDuration: '.5s',
+  transitionTimingFunction: 'easeInOut',
+  display: 'grid',
+  gap: 's',
+
+  _groupHover: {
+    backgroundColor: 'neutral.background.brand.primary.hovered',
+    maxHeight: '40em'
+  }
+})
+
+const textDescription = css({
+  overflow: 'hidden',
+  textOverflow: 'ellipsis',
+  lineClamp: '3',
+  textWrap: 'balance',
+  boxOrient: 'vertical',
+  display: '-webkit-box',
+  maxHeight: '0',
+  transition: 'max-height',
+  transitionDuration: '.5s',
+  transitionTimingFunction: 'easeInOut',
+  _groupHover: {
+    maxHeight: '40em'
   }
 })
 
@@ -25,16 +58,23 @@ interface Props {
   cardImg: string
   altImg: string
   title: string
+  description: string
 }
 
-const { cardImg, altImg, title } = Astro.props
+const { cardImg, altImg, title, description } = Astro.props
 ---
 
-<article class={article}>
+<a href="/" class={`${article} group`}>
   <img src={cardImg} alt={altImg} />
   <div>
-    <Text as="h3" size="text4" weight="400" color="neutral">
-      {title}
-    </Text>
+    <div class={textWrapper}>
+      <Text as="p" size="text1" weight="400" color="neutral">18/12/2024</Text>
+      <Text as="h3" size="text4" weight="500" color="neutral">
+        {title}
+      </Text>
+      <Text as="p" size="text2" weight="400" className={textDescription}>
+        {description}
+      </Text>
+    </div>
   </div>
-</article>
+</a>

@@ -5,7 +5,6 @@ const text = cva({
   base: {
     fontFamily: 'inter',
     fontSize: 'm',
-    color: 'neutral.foreground.1.enabled',
     fontWeight: 400
   },
   variants: {
@@ -23,20 +22,26 @@ const text = cva({
         fontSize: 'm'
       },
       text5: {
-        fontSize: 'l'
+        fontSize: 'ml'
       },
       text6: {
+        fontSize: 'l'
+      },
+      text7: {
         fontSize: 'xl'
       }
     },
     weight: {
-      300: {
+      '300': {
         fontWeight: 300
       },
-      400: {
+      '400': {
         fontWeight: 400
       },
-      700: {
+      '500': {
+        fontWeight: 500
+      },
+      '700': {
         fontWeight: 700
       }
     },
@@ -46,8 +51,16 @@ const text = cva({
       },
       primary: {
         color: 'brand.primary.foreground.1.enabled'
+      },
+      inverted: {
+        color: 'neutral.foreground.inverted.enabled'
       }
     }
+  },
+  defaultVariants: {
+    size: 'text4',
+    weight: '400',
+    color: 'neutral'
   }
 })
 
@@ -55,11 +68,12 @@ interface Props {
   as: string
   size?: 'text1' | 'text2' | 'text3' | 'text4' | 'text5' | 'text6'
   weight?: '300' | '400' | '700'
-  color?: 'neutral' | 'primary'
+  color?: 'neutral' | 'primary' | 'inverted'
+  className?: string
 }
 
-const { as, size, weight, color } = Astro.props
+const { className, as, size, weight, color } = Astro.props
 const Tag = as
 ---
 
-<Tag class={text({ size, weight, color })}><slot /></Tag>
+<Tag class:list={[className, text({ size, weight, color })]}><slot /></Tag>
