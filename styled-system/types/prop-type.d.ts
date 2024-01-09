@@ -210,7 +210,6 @@ interface PropertyValueTypes {
 	srOnly: boolean;
 	debug: boolean;
 	colorPalette: "blue" | "gray" | "white" | "black" | "neutral" | "neutral.foreground" | "neutral.foreground.1" | "neutral.foreground.2" | "neutral.foreground.3" | "neutral.foreground.onbrand" | "neutral.foreground.inverted" | "neutral.foreground.brand" | "neutral.foreground.brand.primary" | "neutral.background" | "neutral.background.1" | "neutral.background.2" | "neutral.background.3" | "neutral.background.4" | "neutral.background.inverted" | "neutral.background.inverted.1" | "neutral.background.inverted.2" | "neutral.background.brand" | "neutral.background.brand.primary" | "neutral.background.alpha" | "neutral.stroke" | "neutral.stroke.1" | "neutral.stroke.2" | "neutral.stroke.3" | "neutral.stroke.4" | "neutral.stroke.brand" | "neutral.stroke.brand.primary" | "brand" | "brand.primary" | "brand.primary.foreground" | "brand.primary.foreground.1" | "brand.primary.background" | "brand.primary.background.1" | "brand.primary.background.2" | "brand.primary.background.3" | "brand.primary.background.subtle" | "brand.primary.stroke" | "brand.primary.stroke.1" | "brand.primary.stroke.2";
-	textStyle: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl" | "5xl" | "6xl" | "7xl" | "8xl" | "9xl";
 }
 
 
